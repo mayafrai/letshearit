@@ -1,0 +1,204 @@
+/* CSS load animation */
+p, h3, img, h1 {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+hr {
+  height: 1px;
+  width: 90%;
+  /* color: #4A4A4A; */
+  background-color: #DFDFDF;
+  border: none;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* end CSS animation */
+
+
+.header {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height: 140px;
+}
+
+
+body {
+  margin: 0;
+  background-color: #F5F1E9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#nav-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+#name {
+  order: 1;
+  flex: 1.5;
+}
+
+#name a {
+  color: white;
+  text-decoration: none;
+}
+
+.section-header a {
+  color: black;
+  text-decoration: none;
+}
+
+#links {
+  letter-spacing: 1px;
+  order: 2;
+  flex: 1;
+}
+
+#nav a {
+  color: white;
+}
+
+#name-full {
+  /* font-family: Lato; */
+  font-family: 'Didot';
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-size: 40px;
+  margin-left: 100px;
+  z-index: 6;
+  color: white;
+  margin-top: 40px;
+}
+
+#nav {
+  font-family: 'Avenir';
+  font-weight: 400;
+  z-index: 7;
+  color: white;
+  margin-top: 60px;
+}
+
+/* LANDING PAGE Photos */
+#landing-left {
+  float: left;
+  margin-left: 0px;
+}
+
+#landing-right {
+  float: right;
+  margin-right: 0px;
+}
+
+/* LANDING PAGE Name */
+#lhi {
+  font-family: Pier Sans;
+  font-size: 40px;
+  color: #231E46;
+  text-align: center;
+  margin-top: 250px;
+}
+
+#tagline {
+  font-family: Pier Sans;
+  font-size: 40px;
+  font-weight: 400;
+  color: #231E46;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#see {
+  font-family: Pier Sans;
+  font-size: 20px;
+  font-weight: 400;
+  color: #231E46;
+  text-align: center;
+  margin-top: 210px;
+}
+
+
+.bounce {
+position:fixed;
+left:50%;
+bottom:0;
+margin-top:-25px;
+margin-left:-25px;
+height:50px;
+width:50px;
+-webkit-animation:bounce 1s infinite;
+-moz-animation:bounce 1s infinite;
+-o-animation:bounce 1s infinite;
+animation:bounce 1s infinite;
+}
+
+  @-webkit-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+
+   @-moz-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+
+   @-o-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+
+   @keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
