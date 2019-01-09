@@ -355,7 +355,6 @@ li {
 }
 
 /* full width images CSS */
-
 .industry-below-full {
   margin-top: 140px;
   font-size: 20px;
@@ -378,6 +377,7 @@ li {
 }
 
 .full h1 {
+  vertical-align: top;
   position: absolute;
   margin-top: 70px;
   left: 45%;
@@ -389,6 +389,7 @@ li {
 }
 
 .full p {
+  vertical-align: top;
   position: absolute;
   left: 45%;
   margin-top: 170px;
@@ -401,8 +402,9 @@ li {
 }
 
 .full a {
-  text-decoration: none;
+  vertical-align: top;
   position: absolute;
+  text-decoration: none;
   left: 45%;
   margin-top: 360px;
   width: 40%;
