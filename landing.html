@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Let's Hear It</title>
+<link rel="stylesheet" type="text/css" href="all.css" media="all"/>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<body id="main-body">
+
+<!-- Make header bar  -->
+<header>
+  <div class="header">
+    <div class="nav-wrap">
+        <div id="lhi-div">
+          <a id="name-full" href="index.html">LHI.</a>
+        </div>
+
+      <div id="nav">
+        <ul>
+          <li> <a href="about.html">About </a></li>
+          <li> <a href="#contribute"> Contribute </a></li>
+          <li> <a href="https://medium.com/lets-hear-it">Publication </a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</header>
+<!-- end header bar -->
+
+<!-- Main content -->
+<main>
+  <div class="bounce">
+    <img id="arrow" alt="arrow" src = "images/arrow.png" width="40"/>
+  </div>
+
+<script>
+   $(document).ready(function() {
+       $(window).scroll(function() {
+           if ($('body').height() <= ($(window).height() + $(window).scrollTop())) {
+                document.getElementById('arrow').style.display='none';
+           }
+       });
+   });
+</script>
+
+<!-- ROW 1 Triangle Width -->
+<div class="flex1">
+  <div id="container1">
+    <p class="industry"> VENTURE CAPITAL </p>
+    <div id="1">
+      <img alt="Jess Lee image" src = "images/jess.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+
+  <div id="container2">
+    <p class="industry"> TECHNOLOGY </p>
+    <div id="1">
+      <img alt="Jess Lee image" src = "images/aj.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- ROW 2 Triangle Width-->
+<div class="flex1">
+  <div id="container1">
+    <p class="industry-below"> VENTURE CAPITAL </p>
+    <div id="1">
+      <img alt="Ellen Pao image" src = "images/aileen.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+
+  <div id="container2">
+    <p class="industry-below"> ENTERTAINMENT </p>
+    <div id="1">
+      <img alt="Salma Hayek image" src = "images/salma.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 3 Full Width-->
+<p class="industry-below-full"> TECHNOLOGY </p>
+<div class="full">
+  <h1> Susan Fowler </h1>
+  <p> "I wasn’t just standing up for myself. I felt like I was standing up for everyone else that I was seeing at Uber who was mistreated. And so I felt like, if I can take this on despite the consequences, then I should do it." </p>
+  <a href=""> Hear her story → </a>
+  <img alt="Susan Fowler image" src="images/susan-full.png" width="450"/>
+</div>
+
+<!-- ROW 4 Curve Width-->
+<div class="flex1">
+  <div id="container1">
+    <p class="industry-below"> VENTURE CAPITAL </p>
+    <div id="1">
+      <img alt="Ellen Pao image" src = "images/ellen.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+
+  <div id="container2">
+    <p class="industry-below"> ENTERTAINMENT </p>
+    <div id="1">
+      <img alt="Reese Witherspoon image" src = "images/reese.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 5 Full Width-->
+<p class="industry-below-full"> TECHNOLOGY </p>
+<div class="full">
+  <h1> Sheryl Sandberg </h1>
+  <p> "Cheering is not enough. We need systemic, lasting changes that deter bad behavior and protect everyone, from professionals climbing the corporate ladder to workers in low-paid positions who often have little power." </p>
+  <a href=""> Hear her story → </a>
+  <img alt="Susan Fowler image" src="images/sheryl.png" width="450"/>
+</div>
+
+<!-- ROW 6 Triangle Width-->
+<div class="flex1">
+  <div id="container1">
+    <p class="industry-below"> ENTERTAINMENT </p>
+    <div id="1">
+      <img alt="Lupita Nyong'o image" src = "images/lupita.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+
+  <div id="container2">
+    <p class="industry-below"> ENTREPRENEURSHIP </p>
+    <div id="1">
+      <img alt="Whitney Wolfe image" src = "images/whitney.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- ROW 7 Full Width-->
+<p class="industry-below-full"> TECHNOLOGY </p>
+<div class="full-right">
+  <h1> Melinda Gates </h1>
+  <p> “I’ve spent the last 20 years talking to women all over the globe, and I hear these stories everywhere I go. From board rooms to presidential palaces to mats spread on the ground in the world’s poorest villages, the message from women is the same: Me too. Me too. Me too.” </p>
+  <a href=""> Hear her story → </a>
+  <img alt="Susan Fowler image" src="images/melinda.png" width="540"/>
+</div>
+
+<!-- ROW 8 Triangle Width-->
+<div class="flex1">
+  <div id="container1">
+    <p class="industry-below"> ENTERTAINMENT </p>
+    <div id="1">
+      <img alt="Uma Thurman image" src = "images/uma.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+
+  <div id="container2">
+    <p class="industry-below"> TECHNOLOGY </p>
+    <div id="1">
+      <img alt="Erica Joy Baker image" src = "images/erica.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 9 Full Width-->
+<p class="industry-below-full"> ENTREPRENEURSHIP </p>
+<div class="full-right-3">
+  <br/>
+  <h1> Rachel Renock, Claire Humphreys, <br/> Kristen Ablamsky </h1>
+  <br/><br/>
+  <p>  <br/>“They put up with the comments because they couldn’t imagine a world in which that $500,000 wasn’t on the table anymore.” </p>
+  <a href=""> Hear their story → </a>
+  <img alt="Susan Fowler image" src="images/three-women.png" width="600"/>
+</div>
+
+<!-- ROW 9 Curve Width-->
+<div class="flex1">
+  <div id="container1">
+    <p class="industry-below"> TECHNOLOGY </p>
+    <div id="1">
+      <img alt="Tracy Chou image" src = "images/tracy.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+
+  <div id="container2">
+    <p class="industry-below"> VENTURE CAPITAL </p>
+    <div id="1">
+      <img alt="Freada Kapor image" src = "images/freada.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 10 Curve Width-->
+<div class="flex1">
+  <div id="container1">
+    <p class="industry-below"> ENTREPRENEURSHIP </p>
+    <div id="1">
+      <img alt="Sophia Amoruso image" src = "images/sophia.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+
+  <div id="container2">
+    <p class="industry-below"> ENTREPRENEURSHIP </p>
+    <div id="1">
+      <img alt="Kathryn Minshew image" src = "images/kathryn.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 11 Full Width-->
+<p class="industry-below-full"> SPORTS </p>
+<div class="full">
+  <h1> Serena Williams </h1>
+  <p> “Women in general are not treated the same as men who’ve had the same amount of success. And then, being a black woman, doing something historically that’s never been done, it’s easy to feel like, ‘We’ve always picked on people of this color.  So I’m O.K. to continue to do it.” </p>
+  <a href=""> Hear her story → </a>
+  <img id="serena" alt="Serena Williams image" src="images/serena.png" width="420"/>
+</div>
+
+<!-- ROW 12 Triangle Width-->
+<div class="flex1">
+  <div id="container1">
+    <p class="industry-below"> ENTREPRENEURSHIP </p>
+    <div id="1">
+      <img alt="Jennifer Hyman image" src = "images/jenn.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+
+  <div id="container2">
+    <p class="industry-below"> VENTURE CAPITAL </p>
+    <div id="1">
+      <img alt="Arlan Hamilton image" src = "images/arlan.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 13 Triangle Width-->
+<div class="flex1">
+  <div id="container1">
+    <p class="industry-below"> ACADEMIA </p>
+    <div id="1">
+      <img alt="Christine Ford image" src = "images/christine.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+
+  <div id="container2">
+    <p class="industry-below"> TECHNOLOGY </p>
+    <div id="1">
+      <img alt="Emily Chang image" src = "images/emily.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 14 Full Width-->
+<p class="industry-below-full"> ACTIVISM </p>
+<div class="full-right-3">
+  <h1> Tarana Burke </h1>
+  <p>  <br/>“This is a survivors’ movement created for and by those of us who have endured sexual violence. The goal is to provide a mechanism to support survivors and move people to action.” </p>
+  <a href=""> Hear her story → </a>
+  <img id="tarana" alt="Tarana Burke image" src="images/tarana.png" width="430"/>
+</div>
+
+<!-- ROW 15 Curve Width-->
+<div class="flex1">
+  <div id="container1">
+    <p class="industry-below"> ENTERTAINMENT </p>
+    <div id="1">
+      <img alt="Eva Longoria image" src = "images/eva.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+
+  <div id="container2">
+    <p class="industry-below"> JOURNALISM </p>
+    <div id="1">
+      <img alt="Jia Tolentino image" src = "images/jia.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 16 Full Width-->
+<p class="industry-below-full"> ACTIVISM </p>
+<div class="full">
+  <h1> Michelle Obama </h1>
+  <p id="michelle-quote"> "Your story is what you have, what you will always have. It is something to own."
+ </p>
+  <a href=""> Hear her story → </a>
+  <img id="michelle" alt="Michelle Obama image" src="images/michelle.png" width="440"/>
+</div>
+
+<!-- ROW 17 Triangle Width-->
+<div class="flex1">
+  <div id="container1">
+    <p class="industry-below"> POLITICS </p>
+    <div id="1">
+      <img alt="AOC image" src = "images/aoc.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+
+  <div id="container2">
+    <p class="industry-below"> TECHNOLOGY </p>
+    <div id="1">
+      <img alt="Feifei Li image" src = "images/fei.png" width="540"/>
+    </div>
+
+    <div id="2" class="hear-button">
+       <a href="landing.html">Hear her story →</a>
+    </div>
+  </div>
+</div>
+</main>
+
+<!-- Footer -->
+<a name="contribute"></a>
+<div id="footer-wrap">
+  <div id="left">
+    <h1> Stay Updated </h1>
+    <!-- Begin Mailchimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+  	#mc_embed_signup{background:none; clear:left; font:14px Pier Sans,Avenir; color: white;}
+    </style>
+
+  <div id="mc_embed_signup">
+    <form action="https://webflow.us12.list-manage.com/subscribe/post?u=026ea119d4e894bad560df48f&amp;id=ee71568076" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+  <div id="mc_embed_signup_scroll">
+  	<h2>Hear the latest stories on groundbreaking women.</h2>
+
+  <div class="mc-field-group">
+  	<label for="mce-FNAME">Full Name </label><span class="asterisk">*</span>
+  	<input type="text" value="" name="FNAME" class="required name" id="mce-FNAME">
+  </div>
+
+  <div class="mc-field-group">
+    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+  </label>
+    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+  </div>
+
+  <div id="mce-responses" class="clear">
+  		<div class="response" id="mce-error-response" style="display:none"></div>
+  		<div class="response" id="mce-success-response" style="display:none"></div>
+  	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_026ea119d4e894bad560df48f_ee71568076" tabindex="-1" value=""></div>
+      <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="myButton"></div>
+      </div>
+  </form>
+  </div>
+<!--End mc_embed_signup-->
+  </div>
+
+  <div id="right">
+    <h1> Contribute </h1>
+    <p id="ask1"> Want to share a story or submit your own? </p>
+    <p id="tag"> Submit it to LHI <a href="https://researchq.typeform.com/to/dYXARr"> here</a>.
+
+    <p id="cred"> Created by Maya Frai, Founder and Managing Editor.</p>.
+  </div>
+</div>
+<!-- End footer -->
+
+
+</body>
+</html>

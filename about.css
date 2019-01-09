@@ -1,0 +1,38 @@
+#quote {
+  font-family: Charter;
+  font-size: 40px;
+  width: 70%;
+  margin-left: 40px;
+  color: #1E1446;
+}
+
+#story {
+  font-family: Pier Sans, Avenir;
+  font-size: 25px;
+  width: 70%;
+  margin-left: 40px;
+  margin-top: 90px;
+  color: #1E1446;
+}
+
+#author {
+  font-family: Pier Sans, Avenir;
+  font-size: 25px;
+  font-weight: 500;
+  width: 70%;
+  margin-left: 40px;
+  margin-top: 90px;
+  color: #1E1446;
+}
+
+#author a {
+  font-family: Pier Sans, Avenir;
+  font-size: 25px;
+  font-weight: 700;
+  color: #1E1446;
+  text-decoration: none;
+}
+
+#author a:hover {
+  color: grey;
+}
