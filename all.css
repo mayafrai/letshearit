@@ -366,6 +366,8 @@ li {
 }
 
 .full {
+  overflow-y: hidden; // hide vertical
+  overflow-x: hidden; // hide horizontal
   background-color: #F5F1E9;
   width: 100%;
   z-index: 20;
