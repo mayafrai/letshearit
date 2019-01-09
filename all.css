@@ -366,6 +366,7 @@ li {
 }
 
 .full {
+  overflow: auto;
   overflow-y: hidden; // hide vertical
   overflow-x: hidden; // hide horizontal
   background-color: #F5F1E9;
@@ -374,6 +375,7 @@ li {
 }
 
 .full img {
+  display: none;
   z-index: 20;
   margin-top: -45px;
 }
