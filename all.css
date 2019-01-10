@@ -570,24 +570,36 @@ li {
   font-family: Pier Sans, Avenir;
   font-size: 30px;
   color: white;
-  font-weight: 200;
+  font-weight: 500;
 }
 
 
 /* form CSS */
-#mc_embed_signup_scroll h2 {
-  font-weight: lighter;
+
+#mc_embed_signup .mc-field-group #mce-FNAME {
+  width: 50%;
+}
+
+#mc_embed_signup .mc-field-group #mce-EMAIL {
+  width: 45%;
+}
+
+#mc_embed_signup {
   margin-top: 40px;
-  font-size: 20px;
   letter-spacing: 1.2px;
   margin-left: 90px;
   color: #D3D0CB;
 }
 
+#mc_embed_signup p {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+
 .mc-field-group {
   font-size: 18px;
   font-family: Pier Sans, Avenir;
-  margin-left: 90px;
   margin-top: 40px;
   letter-spacing: 0.4px;
 }
@@ -620,7 +632,6 @@ li {
 }
 
 #mce-FNAME {
-  margin-top: 60px;
   background-color: #D3D0CB;
   color: black;
   width: 45%;
@@ -649,7 +660,7 @@ li {
   font-family: Pier Sans, Avenir;
   font-size: 20px;
   font-weight: 600;
-  margin-top: 95px;
+  margin-top: 60px;
   margin-left: 60px;
 
 }
