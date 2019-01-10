@@ -134,10 +134,10 @@ html, body {
 /* LANDING PAGE Name */
 #lhi {
   font-family: Pier Sans, Avenir;
-  font-size: 40px;
+  font-size: 55px;
   color: #231E46;
   text-align: center;
-  margin-top: 210px;
+  margin-top: 190px;
 }
 
 #tagline {
@@ -146,7 +146,7 @@ html, body {
   font-weight: 400;
   color: #231E46;
   text-align: center;
-  margin-top: 40px;
+  margin-top: -50px;
 }
 
 .bounce {
@@ -202,6 +202,7 @@ html, body {
 
 /* BUTTONS */
 .myButton {
+  margin-top: 40px;
 	background-color:#231E46;
 	-moz-border-radius:28px;
 	-webkit-border-radius:28px;
@@ -574,13 +575,12 @@ li {
 
 
 /* form CSS */
-
 #mc_embed_signup_scroll h2 {
+  font-weight: lighter;
   margin-top: 40px;
   font-size: 20px;
   letter-spacing: 1.2px;
   margin-left: 90px;
-  font-weight: 100;
   color: #D3D0CB;
 }
 
@@ -602,8 +602,9 @@ li {
 }
 
 #mc-embedded-subscribe {
-  margin-left: 430px;
+  position: absolute;
   margin-top: 50px;
+  left: 28%;
   border-style: none;
   background-color: #3C3166;
 }
@@ -611,7 +612,7 @@ li {
 #mce-EMAIL {
   background-color: #D3D0CB;;
   color: black;
-  width: 317px;
+  width: 40%;
   height: 20px;
   font-size: 15px;
   font-family: Pier Sans, Avenir;
@@ -622,7 +623,7 @@ li {
   margin-top: 60px;
   background-color: #D3D0CB;
   color: black;
-  width: 350px;
+  width: 45%;
   height: 20px;
   font-size: 15px;
   font-family: Pier Sans, Avenir;
