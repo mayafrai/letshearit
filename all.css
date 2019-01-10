@@ -87,8 +87,9 @@ html, body {
 }
 
 #name-full {
+  margin-left: 60px;
   font-family: Pier Sans, Avenir;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.5px;
   font-size: 55px;
   text-decoration: none;
@@ -274,21 +275,15 @@ li {
 }
 
 #container1 {
-    position:relative;
-    width:100px;
-    left: 7%;
-    z-index: 30;
-    flex: 1;
-    order: 1;
+  flex: 1;
+  order: 1;
+  margin-left: 80px;
   }
 
 #container2 {
-    position:relative;
-    width:100px;
-    left: 7%;
-    z-index: 30;
-    flex: 1;
-    order: 2;
+  margin-left: 80px;
+  flex: 1;
+  order: 2;
   }
 
 #div1, #div2 {
@@ -370,24 +365,19 @@ li {
 }
 
 .full {
-  overflow-y: hidden; // hide vertical
-  overflow-x: hidden; // hide horizontal
+  position: relative;
   background-color: #F5F1E9;
   width: 100%;
   z-index: 20;
 }
 
-.full img {
-  display: none;
-  z-index: 20;
-  margin-top: -45px;
-}
-
-.full h1 {
-  vertical-align: top;
+#content {
   position: absolute;
+ }
+
+#content h1 {
   margin-top: 70px;
-  left: 45%;
+  margin-left: 600px;
   z-index: 30;
   font-family: Pier Sans, Avenir;
   font-size: 40px;
@@ -395,11 +385,14 @@ li {
   letter-spacing: 1.2;
 }
 
+.full img {
+  z-index: 20;
+  margin-top: -45px;
+}
+
 .full p {
-  vertical-align: top;
-  position: absolute;
-  left: 45%;
-  margin-top: 170px;
+  margin-left: 600px;
+  margin-top: 60px;
   width: 40%;
   font-family: Pier Sans, Avenir;
   color: #231E46;
@@ -409,12 +402,8 @@ li {
 }
 
 .full a {
-  vertical-align: top;
-  position: absolute;
   text-decoration: none;
-  left: 45%;
-  margin-top: 360px;
-  width: 40%;
+  margin-left: 600px;
   font-family: Pier Sans, Avenir;
   font-weight: 600;
   color: #231E46;
