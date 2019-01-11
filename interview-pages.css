@@ -1,0 +1,182 @@
+#header-interview {
+  text-align: center;
+}
+
+#industry-tag {
+  margin-top: 80px;
+  font-family: Pier Sans, Avenir;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: #FF4013;
+}
+
+#industry-tag a {
+  text-decoration: none;
+  color: #FF4013;
+}
+
+#industry-tag a:hover{
+  text-decoration: underline;
+}
+
+#name-woman {
+  margin-top: 30px;
+  font-family: Pier Sans, Avenir;
+  font-size: 60px;
+  color: #1E1446;
+}
+
+#interview-description {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  font-family: Pier Sans, Avenir;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  color: #1E1446;
+}
+
+#bio-wrap {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+#bio-img {
+  flex: 1;
+  order: 1;
+}
+
+#bio-content {
+  flex: 1.2;
+  order: 1;
+}
+
+#bio-content p {
+  width: 90%;
+  line-height: 1.5;
+  font-family: Pier Sans, Avenir;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  color: #1E1446;
+}
+
+#bio-img {
+  margin-left: 100px;
+}
+
+#img-cred {
+  font-family: Pier Sans, Avenir;
+  font-size: 17px;
+  font-weight: 100;
+  color: #1E1446;
+}
+
+#q-wrap {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+#graphic-q {
+  flex: 0.1;
+  order: 1;
+}
+
+#qs {
+  background-color: #F5F1E9;
+  flex: 2;
+  order: 2;
+}
+#qs #first {
+  margin-left: 90px;
+  margin-top: 60px;
+}
+
+#qs a {
+  color: #1E1446;
+  text-decoration: none;
+}
+
+#qs a:hover {
+  color: #393171;
+}
+
+
+#qs p {
+  width: 80%;
+  font-size: 20px;
+  margin-left: 90px;
+  margin-top: 30px;
+  font-family: Pier Sans, Avenir;
+  letter-spacing: 1.5px;
+  color: #1E1446;
+}
+
+/* full interview css */
+#title-interview {
+  margin-left: 100px;
+  width: 75%;
+  font-size: 20px;
+  margin-left: 90px;
+  margin-top: 60px;
+  font-family: Charter;
+  color: #1E1446;
+}
+
+#full-questions p {
+  line-height: 1.4;
+  width: 80%;
+  font-size: 23px;
+  margin-left: 90px;
+  margin-top: 30px;
+  font-family: Pier Sans, Avenir;
+  letter-spacing: 1px;
+  color: #1E1446;
+}
+
+#full-questions #answer {
+  margin-top: 10px;
+  margin-bottom: 65px;
+}
+
+/* footer css */
+#footer-interview {
+  margin-top: 90px;
+  background-color: #F5F1E9;
+}
+
+#more {
+  margin-left: 100px;
+  width: 75%;
+  font-size: 40px;
+  margin-left: 90px;
+  margin-top: 60px;
+  font-family: Charter;
+  color: #1E1446;
+}
+
+#photo-wrap {
+  margin-top: 60px;
+  margin-left: 90px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+#interview1 {
+  flex: 1;
+  order: 1;
+}
+
+#interview2 {
+  flex: 1;
+  order: 2;
+}
+
+#interview3 {
+  flex: 1;
+  order: 3;
+}
