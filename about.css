@@ -2,7 +2,7 @@
   font-family: Charter;
   font-size: 40px;
   width: 70%;
-  margin-left: 40px;
+  margin-left: 100px;
   color: #1E1446;
 }
 
@@ -10,8 +10,8 @@
   font-family: Pier Sans, Avenir;
   font-size: 25px;
   width: 70%;
-  margin-left: 40px;
-  margin-top: 90px;
+  margin-left: 100px;
+  margin-top: 20px;
   color: #1E1446;
 }
 
@@ -20,7 +20,7 @@
   font-size: 25px;
   font-weight: 500;
   width: 70%;
-  margin-left: 40px;
+  margin-left: 100px;
   margin-top: 90px;
   color: #1E1446;
 }
@@ -35,4 +35,16 @@
 
 #author a:hover {
   color: grey;
+}
+
+#graphic {
+  overflow-y: hidden;
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
+#graphic-img{
+  margin: 0;
+  width: 100%;
 }
