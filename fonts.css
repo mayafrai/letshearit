@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'PierSansRegular';
+    src: url('fonts/PierSansRegular.eot');
+    src: url('fonts/PierSansRegular.eot') format('embedded-opentype'),
+         url('fonts/PierSansRegular.woff2') format('woff2'),
+         url('fonts/PierSansRegular.woff') format('woff'),
+         url('fonts/PierSansRegular.ttf') format('truetype'),
+         url('fonts/PierSansRegular.svg#PierSansRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'PierSansMediumItalic';
+    src: url('fonts/PierSansMediumItalic.eot');
+    src: url('fonts/PierSansMediumItalic.eot') format('embedded-opentype'),
+         url('fonts/PierSansMediumItalic.woff2') format('woff2'),
+         url('fonts/PierSansMediumItalic.woff') format('woff'),
+         url('fonts/PierSansMediumItalic.ttf') format('truetype'),
+         url('fonts/PierSansMediumItalic.svg#PierSansMediumItalic') format('svg');
+}
+@font-face {
+    font-family: 'PierSansBold';
+    src: url('fonts/PierSansBold.eot');
+    src: url('fonts/PierSansBold.eot') format('embedded-opentype'),
+         url('fonts/PierSansBold.woff2') format('woff2'),
+         url('fonts/PierSansBold.woff') format('woff'),
+         url('fonts/PierSansBold.ttf') format('truetype'),
+         url('fonts/PierSansBold.svg#PierSansBold') format('svg');
+}
+
+@font-face {
+    font-family: 'PierSansMedium';
+    src: url('fonts/PierSansMedium.eot');
+    src: url('fonts/PierSansMedium.eot') format('embedded-opentype'),
+         url('fonts/PierSansMedium.woff2') format('woff2'),
+         url('fonts/PierSansMedium.woff') format('woff'),
+         url('fonts/PierSansMedium.ttf') format('truetype'),
+         url('fonts/PierSansMedium.svg#PierSansMedium') format('svg');
+}
+@font-face {
+    font-family: 'PierSansBlackItalic';
+    src: url('fonts/PierSansBlackItalic.eot');
+    src: url('fonts/PierSansBlackItalic.eot') format('embedded-opentype'),
+         url('fonts/PierSansBlackItalic.woff2') format('woff2'),
+         url('fonts/PierSansBlackItalic.woff') format('woff'),
+         url('fonts/PierSansBlackItalic.ttf') format('truetype'),
+         url('fonts/PierSansBlackItalic.svg#PierSansBlackItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'PierSansLight';
+    src: url('fonts/PierSansLight.eot');
+    src: url('fonts/PierSansLight.eot') format('embedded-opentype'),
+         url('fonts/PierSansLight.woff2') format('woff2'),
+         url('fonts/PierSansLight.woff') format('woff'),
+         url('fonts/PierSansLight.ttf') format('truetype'),
+         url('fonts/PierSansLight.svg#PierSansLight') format('svg');
+}
+
+@font-face {
+    font-family: 'PierSansBlack';
+    src: url('fonts/PierSansBlack.eot');
+    src: url('fonts/PierSansBlack.eot') format('embedded-opentype'),
+         url('fonts/PierSansBlack.woff2') format('woff2'),
+         url('fonts/PierSansBlack.woff') format('woff'),
+         url('fonts/PierSansBlack.ttf') format('truetype'),
+         url('fonts/PierSansBlack.svg#PierSansBlack') format('svg');
+}
