@@ -1,3 +1,7 @@
+body {
+  font-family: Pier Sans, Avenir, sans-serif;
+}
+
 #quote {
   font-family: Charter;
   font-size: 40px;
