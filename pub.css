@@ -162,3 +162,20 @@ hr {
 #tag-article-ed a:hover {
   text-decoration: underline;
 }
+
+/* letter from the editor pages */
+#name-letter {
+  margin-top: 30px;
+  font-family: Pier Sans, Avenir;
+  font-size: 40px;
+  color: #1E1446;
+}
+
+#date {
+  margin-top: 50px;
+  font-family: Pier Sans, Avenir;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  color: #1E1446;
+}
