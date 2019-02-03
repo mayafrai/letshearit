@@ -44,7 +44,31 @@
   </div>
 </header>
 <!-- end header bar -->
+
 <main>
+<!-- Dark mode toggle -->
+<div id="dark">
+  <button id="butt" onclick="myFunction()">Night Mode 🌚</button>
+</div>
+
+<script>
+  var tog = false
+  function myFunction() {
+    if (tog =!tog) {
+      $('#main-body').attr('id', 'main-body-ed');
+      $('#name-letter').attr('id', 'name-letter-dark');
+      $('#interview-description').attr('id', 'description-dark');
+      $('#butt').text("Light Mode 🌝");
+    } else {
+      $('#main-body-ed').attr('id', 'main-body');
+      $('#name-letter-dark').attr('id', 'name-letter');
+      $('#description-dark').attr('id', 'interview-description');
+      $('#butt').text("Night Mode 🌚");
+    }
+  }
+</script>
+
+<!-- End dark mode -->
 
   <!-- Title -->
   <div id="header-interview">

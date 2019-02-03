@@ -46,6 +46,44 @@
 <!-- end header bar -->
 
 <main>
+
+  <!-- Dark mode toggle -->
+  <div id="dark">
+    <button id="butt" onclick="myFunction()">Night Mode 🌚</button>
+  </div>
+
+  <script>
+    var tog = false
+    function myFunction() {
+      if (tog =!tog) {
+        $('#main-body').attr('id', 'main-body-ed');
+        $('#name-letter').attr('id', 'name-letter-dark');
+        $('#interview-description').attr('id', 'description-dark');
+        $('#butt').text("Light Mode 🌝");
+        $('#name-woman').attr('id', 'name-woman-dark');
+        $('#bio-p').attr('id', 'bio-p-dark');
+        $('#img-cred').attr('id', 'img-cred-dark');
+        $('#title-interview').attr('id', 'title-interview-dark');
+        $('#full-questions').attr('id', 'full-questions-dark');
+        $('#footer-interview').attr('id', 'footer-interview-dark');
+        $('#more').attr('id', 'more-dark');
+      } else {
+        $('#main-body-ed').attr('id', 'main-body');
+        $('#name-letter-dark').attr('id', 'name-letter');
+        $('#description-dark').attr('id', 'interview-description');
+        $('#butt').text("Night Mode 🌚");
+        $('#name-woman-dark').attr('id', 'name-woman');
+        $('#bio-p-dark').attr('id', 'bio-p');
+        $('#img-cred-dark').attr('id', 'img-cred');
+        $('#title-interview-dark').attr('id', 'title-interview-dark');
+        $('#full-questions-dark').attr('id', 'full-questions');
+        $('#footer-interview-dark').attr('id', 'footer-interview');
+        $('#more-dark').attr('id', 'more');
+      }
+    }
+  </script>
+
+  <!-- End dark mode -->
 <!-- Title -->
 <div id="header-interview">
   <p id="industry-tag">
@@ -68,9 +106,7 @@
   </div>
 
   <div id="bio-content">
-    <p> Nancy is currently a technical product management leader at AWS, where she leads teams within EC2 for SQL Server, public sector, and gaming. Previously, Nancy was an early product manager at Rubrik, where she led the filesystem, Windows, and stealth SaaS product lines. With a history of building and launching large-scale enterprise systems in storage, data management, and networking, Nancy also led product at Google (Fiber) and also system integration efforts for the U.S. Intelligence Community in Washington, D.C. She is passionate about the democratization of data and empowering more women tech leaders. Nancy graduated from the University of Pennsylvania with a degree in engineering.
-
-
+    <p id="bio-p"> Nancy is currently a technical product management leader at AWS, where she leads teams within EC2 for SQL Server, public sector, and gaming. Previously, Nancy was an early product manager at Rubrik, where she led the filesystem, Windows, and stealth SaaS product lines. With a history of building and launching large-scale enterprise systems in storage, data management, and networking, Nancy also led product at Google (Fiber) and also system integration efforts for the U.S. Intelligence Community in Washington, D.C. She is passionate about the democratization of data and empowering more women tech leaders. Nancy graduated from the University of Pennsylvania with a degree in engineering.</p>
   </div>
 </div>
 

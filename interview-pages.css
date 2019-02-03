@@ -57,7 +57,7 @@ body {
   order: 1;
 }
 
-#bio-content p {
+/* #bio-content p {
   width: 90%;
   line-height: 1.5;
   font-family: Pier Sans, Avenir;
@@ -65,7 +65,7 @@ body {
   letter-spacing: 1.5px;
   font-weight: 100;
   color: #1E1446;
-}
+} */
 
 #bio-img {
   margin-left: 100px;
@@ -151,6 +151,10 @@ body {
   color: #1E1446;
 }
 
+#full-questions {
+  color: #1E1446;
+}
+
 #full-questions p {
   line-height: 1.4;
   width: 80%;
@@ -204,4 +208,84 @@ body {
 #interview3 {
   flex: 1;
   order: 3;
+}
+
+/* dark mode css */
+#name-woman-dark {
+  margin-top: 30px;
+  font-family: Pier Sans, Avenir;
+  font-size: 60px;
+  color: white;
+}
+
+#bio-p {
+    width: 90%;
+    line-height: 1.5;
+    font-family: Pier Sans, Avenir;
+    font-size: 23px;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    color: #1E1446;
+}
+
+#bio-p-dark {
+  width: 90%;
+  line-height: 1.5;
+  font-family: Pier Sans, Avenir;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  color: white;
+}
+
+#img-cred-dark {
+  font-family: Pier Sans, Avenir;
+  font-size: 17px;
+  font-weight: 100;
+  color: white;
+}
+
+#title-interview-dark {
+  margin-left: 100px;
+  width: 75%;
+  font-size: 20px;
+  margin-left: 90px;
+  margin-top: 60px;
+  font-family: Charter;
+  color: white;
+}
+
+#full-questions-dark {
+  color: white;
+}
+
+#full-questions-dark p {
+  line-height: 1.4;
+  width: 80%;
+  font-size: 23px;
+  margin-left: 90px;
+  margin-top: 30px;
+  font-family: Pier Sans, Avenir;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#full-questions-dark #answer {
+  margin-top: 10px;
+  margin-bottom: 65px;
+}
+
+#footer-interview-dark {
+  margin-top: 90px;
+  background-color: #1E1446;
+}
+
+#more-dark {
+  margin-left: 100px;
+  width: 75%;
+  font-size: 40px;
+  margin-left: 90px;
+  margin-top: 60px;
+  font-family: Charter;
+  color: white;
 }
