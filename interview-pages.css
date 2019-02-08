@@ -215,7 +215,7 @@ body {
   margin-top: 30px;
   font-family: Pier Sans, Avenir;
   font-size: 60px;
-  color: #E1E1E1;
+  color: white;
 }
 
 #bio-p {
@@ -235,14 +235,14 @@ body {
   font-size: 23px;
   letter-spacing: 1.5px;
   font-weight: 100;
-  color: #E1E1E1;
+  color: white;
 }
 
 #img-cred-dark {
   font-family: Pier Sans, Avenir;
   font-size: 17px;
   font-weight: 100;
-  color: #E1E1E1;
+  color: white;
 }
 
 #title-interview-dark {
@@ -252,11 +252,11 @@ body {
   margin-left: 90px;
   margin-top: 60px;
   font-family: Charter;
-  color: #E1E1E1;
+  color: white;
 }
 
 #full-questions-dark {
-  color: #E1E1E1;
+  color: white;
 }
 
 #full-questions-dark p {
@@ -267,7 +267,7 @@ body {
   margin-top: 30px;
   font-family: Pier Sans, Avenir;
   letter-spacing: 1px;
-  color: #E1E1E1;
+  color: white;
 }
 
 #full-questions-dark #answer {
@@ -287,5 +287,5 @@ body {
   margin-left: 90px;
   margin-top: 60px;
   font-family: Charter;
-  color: #E1E1E1;
+  color: white;
 }
