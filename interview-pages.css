@@ -41,6 +41,14 @@ body {
   color: #1E1446;
 }
 
+#interview-description a {
+  color: #FF4013;
+}
+
+#interview-description a:hover {
+  color: #1E1446;
+}
+
 #bio-wrap {
   margin-top: 100px;
   display: flex;

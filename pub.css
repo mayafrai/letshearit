@@ -181,6 +181,50 @@ hr {
   color: white;
 }
 
+#author-name {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  font-family: Pier Sans, Avenir;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  color: #1E1446;
+}
+
+#author-dark {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  font-family: Pier Sans, Avenir;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  color: white;
+}
+
+#block-quote {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  font-family: Charter;
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #1E1446;
+  width: 1000px;
+}
+
+#block-quote-dark {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  font-family: Charter;
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: white;
+  width: 1000px;
+}
+
 
 #description-dark {
   margin-left: 200px;
@@ -191,6 +235,23 @@ hr {
   letter-spacing: 1.5px;
   font-weight: 100;
   color: white;
+}
+
+#description-dark a {
+  color: white;
+}
+
+#description-dark a:hover {
+  color: #FF4013;
+}
+
+#date {
+  margin-top: 50px;
+  font-family: Pier Sans, Avenir;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  color: #1E1446;
 }
 
 #date {
@@ -211,6 +272,44 @@ hr {
   background-color: #F5F1E9;
   font-size: 15px;
   font-family: Pier Sans, Avenir;
+}
+
+#part2{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  font-family: Pier Sans, Avenir;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  color: #1E1446;
+}
+
+#part2-dark {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  font-family: Pier Sans, Avenir;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  color: white;
+}
+
+#part2-dark a {
+  color: white;
+}
+
+#part2 a {
+  color: #FF4013;
+}
+
+#part2 a:hover {
+  color: #1E1446;
+}
+
+#part2-dark a:hover {
+  color: #FF4013;
 }
 
 /* Night mode */
