@@ -45,6 +45,44 @@
 </header>
 <!-- end header bar -->
 
+<!-- Dark mode toggle -->
+<div id="dark">
+  <button id="butt" onclick="myFunction()">Night Mode 🌚</button>
+</div>
+
+<script>
+  var tog = false
+  function myFunction() {
+    if (tog =!tog) {
+      $('#main-body').attr('id', 'main-body-ed');
+      $('#name-letter').attr('id', 'name-letter-dark');
+      $('#interview-description').attr('id', 'description-dark');
+      $('#butt').text("Light Mode 🌝");
+      $('#name-woman').attr('id', 'name-woman-dark');
+      $('#bio-p').attr('id', 'bio-p-dark');
+      $('#img-cred').attr('id', 'img-cred-dark');
+      $('#title-interview').attr('id', 'title-interview-dark');
+      $('#full-questions').attr('id', 'full-questions-dark');
+      $('#footer-interview').attr('id', 'footer-interview-dark');
+      $('#more').attr('id', 'more-dark');
+    } else {
+      $('#main-body-ed').attr('id', 'main-body');
+      $('#name-letter-dark').attr('id', 'name-letter');
+      $('#description-dark').attr('id', 'interview-description');
+      $('#butt').text("Night Mode 🌚");
+      $('#name-woman-dark').attr('id', 'name-woman');
+      $('#bio-p-dark').attr('id', 'bio-p');
+      $('#img-cred-dark').attr('id', 'img-cred');
+      $('#title-interview-dark').attr('id', 'title-interview');
+      $('#full-questions-dark').attr('id', 'full-questions');
+      $('#footer-interview-dark').attr('id', 'footer-interview');
+      $('#more-dark').attr('id', 'more');
+    }
+  }
+</script>
+
+<!-- End dark mode -->
+
 <main>
 <!-- Title -->
 <div id="header-interview">
@@ -67,7 +105,7 @@
   </div>
 
   <div id="bio-content">
-    <p>Cheryl Sew Hoy is currently an EIR at SVB, Advisor to Cosmos/Tendermint, Culture Summit, and many other startups, and Board Member of Flexiroam LTD, and currently resides in the San Francisco Bay Area. <br/><br/>She was listed in TIME’S “2017 Person of the Year,” as the 13th “Silence Breaker,” who spoke out against sexual harassment in the workplace. <br/><br/>On March 8, 2018, she launched #MovingForward, which is an open-source directory to highlight VC’s anti-discrimination and anti-harassment policies and reporting contacts. As of Sept 2018, 110+ VC firms have committed as full participants.</p>
+    <p id="bio-p">Cheryl Sew Hoy is currently an EIR at SVB, Advisor to Cosmos/Tendermint, Culture Summit, and many other startups, and Board Member of Flexiroam LTD, and currently resides in the San Francisco Bay Area. <br/><br/>She was listed in TIME’S “2017 Person of the Year,” as the 13th “Silence Breaker,” who spoke out against sexual harassment in the workplace. <br/><br/>On March 8, 2018, she launched #MovingForward, which is an open-source directory to highlight VC’s anti-discrimination and anti-harassment policies and reporting contacts. As of Sept 2018, 110+ VC firms have committed as full participants.</p>
   </div>
 </div>
 
