@@ -454,28 +454,29 @@
 
 <!-- Sticky footer -->
 <footer id="sticky">
-  <button class="btn-copy">Share the #LHIWD Campaign 🔗</button>
+  <button id="copy" class="btn-copy" onclick="copyToClipboard('#p1')">Share the #LHIWD Campaign 🔗</button>
 </footer>
 
-<script>
-var clipboard = new Clipboard('.btn-copy', {
-    text: function() {
-        return document.querySelector('input[type=hidden]').value;
-    }
-});
-clipboard.on('success', function(e) {
-  alert("Copied!");
-  e.clearSelection();
-});
-$("#input-url").val(location.href);
-//safari
-if (navigator.vendor.indexOf("Apple")==0 && /\sSafari\//.test(navigator.userAgent)) {
-   $('.btn-copy').on('click', function() {
-var msg = window.prompt("Copy this link", location.href);
+<p id="p1">http://www.letshearitplatform.org/IWD.html</p>
 
-});
-  }
+<script>
+
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+  document.getElementById("copy").innerHTML = "Link copied!";
+
+}
+
 </script>
+
+
+
+
+
 
 
 </body>

@@ -272,6 +272,7 @@ video {
 
 #sticky:hover {
   background: #FFC7C3;
+  cursor: pointer;
 }
 
 .btn-copy{
@@ -285,6 +286,7 @@ video {
 }
 .btn-copy:hover, .btn-copy:focus{
   color: red;
+  cursor: pointer;
   /* background-color: #48A1C1;
   border-bottom: 2px solid #38AFDD; */
   /*transition cross browser*/
@@ -341,4 +343,8 @@ video {
     border-top: 1px solid white;
     margin: 1em 0;
     padding: 0;
+}
+
+#p1 {
+  display: none;
 }
