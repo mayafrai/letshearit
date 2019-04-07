@@ -176,6 +176,10 @@ body {
   color: #1E1446;
 }
 
+#full-questions a {
+  color: #1E1446;
+}
+
 #full-questions #answer {
   margin-top: 10px;
   margin-bottom: 65px;

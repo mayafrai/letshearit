@@ -342,3 +342,24 @@ hr {
   font-size: 20px;
   left: 5%;
 }
+
+/* Anchor button */
+#anchor {
+  margin-top: 120px;
+  font-weight: 700;
+  position: absolute;
+  font-family: Pier Sans, Avenir;
+  font-size: 20px;
+  left: 5%;
+}
+
+#butt {
+  border-radius: 10px;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-width: 0px;
+  background-color: #F5F1E9;
+  font-size: 15px;
+  font-family: Pier Sans, Avenir;
+}
