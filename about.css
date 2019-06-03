@@ -3,19 +3,22 @@ body {
 }
 
 #quote {
-  font-family: Charter;
-  font-size: 40px;
+  font-family: Pier Sans, Avenir;
+  font-weight: 500;
+  margin-top: 50px;
+  font-size: 20px;
   width: 70%;
   margin-left: 100px;
   color: #1E1446;
-}
+  }
 
 #story {
   font-family: Pier Sans, Avenir;
   font-size: 25px;
-  width: 70%;
+  font-weight: 100;
+  width: 65%;
   margin-left: 100px;
-  margin-top: 20px;
+  margin-top: 10px;
   color: #1E1446;
 }
 
