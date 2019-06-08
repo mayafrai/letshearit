@@ -303,3 +303,102 @@ body {
   font-family: Charter;
   color: white;
 }
+
+/* LHI industry css */
+.ecom-piece {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 160px;
+  padding-right: 160px;
+  color: #1E1446;
+  background-color: #EBEBEB;
+  border-radius: 2px;
+}
+
+.ecom-piece h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.ecom-piece p {
+  margin-top: 30px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+#bio-c {
+  display: flex;
+  flex-direction: row;
+}
+
+#bio-img {
+  margin-right: 0;
+  flex: 3;
+  order: 1;
+}
+
+#cred {
+  margin-top: 520px;
+  flex: 1;
+  order: 2;
+}
+
+
+#img-cred-ecom {
+  font-family: Pier Sans, Avenir;
+  font-size: 17px;
+  font-weight: 100;
+  color: #1E1446;
+  margin-right: 50px;
+}
+
+#biographies {
+  color: #1E1446;
+  margin-top: 90px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+#p1 {
+  flex: 1;
+  order: 1;
+  margin-right: 60px;
+}
+
+#p2 {
+  flex: 1;
+  order: 2;
+  margin-right: 60px;
+
+}
+
+#p3 {
+  flex: 1;
+  order: 3;
+}
+
+.name-h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 25px;
+  color: #1E1446;
+}
+
+.name-p {
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #1E1446;
+}
+
+#sign {
+  font-family: Charter;
+  font-size: 20px;
+}
