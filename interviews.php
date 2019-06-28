@@ -1,0 +1,190 @@
+<?php include("menu.php"); ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132525817-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132525817-1');
+</script>
+
+<meta charset="utf-8"/>
+<title>Interviews | Let's Hear It</title>
+<link rel="stylesheet" type="text/css" href="all.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="about.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="pub.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="fonts.css" media="all"/>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<body id="main-body">
+
+<main>
+
+<!-- Title 1 -->
+<div id="latest">
+  <h1> Interviews </h1>
+</div>
+
+<!-- Interview 1 Latest -->
+<div id="article-wrap">
+  <div id="image">
+    <img alt="sian" src = "images/sian-article.png" width="550"/>
+  </div>
+
+  <div class="article">
+    <p id="tag-article"> <a href="interviews.php">#HEARHERSTORY</a></p>
+    <h1 id="title-article"> <a href="sian-interview.php">Interview with Sian Beilock</a></h1>
+    <p id="date"> April 26, 2019</p>
+    <p id="description"> Sian Beilock is the 8th President of Barnard College, renown cognitive scientist, and author of "Choke." In this interview, Sian talks pursuing a career in academia and equipping young female students with tools and resources to overcome self-doubt. She details her experiences as well as techniques in tackling anxiety and performing up to one's utmost potential.
+
+ </p>
+  </div>
+</div>
+
+
+<div id="article-wrap-next">
+  <div id="image">
+    <img alt="carly" src = "images/carly-article.png" width="550"/>
+  </div>
+
+  <div class="article">
+    <p id="tag-article"> <a href="interviews.php">#HEARHERSTORY</a></p>
+    <h1 id="title-article"> <a href="carly-interview.php">Interview with Carly Leahy</a></h1>
+    <p id="date"> April 7, 2019</p>
+    <p id="description"> Carly Leahy talks about democratizing fertility and reproductive health information for women and empowering female creative leaders. She started off in advertising and found her passion in creative branding and storytelling. After, she moved to Google and Uber to build innovative products. She then met her co-founder Afton and took on the challenge of ensuring women has on-demand information about their reproductive health.
+
+ </p>
+  </div>
+</div>
+
+
+<div id="article-wrap-next">
+  <div id="image">
+    <img alt="nancy wang" src = "images/kara-jpeg.jpg" width="550"/>
+  </div>
+
+  <div class="article">
+    <p id="tag-article"> <a href="interviews.php">#HEARHERSTORY</a></p>
+    <h1 id="title-article"> <a href="kara-interview.php">Interview with Kara Goldin</a></h1>
+    <p id="date"> February 8, 2019</p>
+    <p id="description">  Kara Goldin talks about disrupting the beverage industry with no prior knowledge and experience. She started Hint Water to bring a product to the market with no sugar and all natural ingredients. Kara tells LHI about her experiences as a female entrepreneur and next steps for growing Hint as a direct-to-consumer business. </p>
+  </div>
+</div>
+
+<!-- Interview 1 Latest -->
+<div id="article-wrap-next">
+  <div id="image">
+    <img alt="nancy wang" src = "images/nancy.png" width="550"/>
+  </div>
+
+  <div class="article">
+    <p id="tag-article"> <a href="interviews.php">#HEARHERSTORY</a></p>
+    <h1 id="title-article"> <a href="nancy-interview.php">Interview with Nancy Wang</a></h1>
+    <p id="date"> January 14, 2019</p>
+    <p id="description"> Nancy Wang talks about how she got her start in product management going from leading an open data initiative for the U.S. government to being the first female product manager at Google Fiber. Her passion for enterprise software and advancing women in tech leadership led her to pursue a lead product management role at Rubrik and to start her non-profit, Advancing Women in Product.</p>
+  </div>
+</div>
+
+
+<!-- Interview 1 -->
+<div id="article-wrap-next">
+  <div id="image">
+    <img alt="cheryl yeoh" src = "images/cheryl1.png" width="550"/>
+  </div>
+
+  <div class="article">
+    <p id="tag-article"> <a href="interviews.php">#HEARHERSTORY</a></p>
+    <h1 id="title-article"> <a href="cheryl-interview.php">Interview with Cheryl Yeoh Sew Hoy</a></h1>
+    <p id="date"> December 4, 2018</p>
+    <p id="description"> Cheryl Yeoh talks about the early days of building out her two start-ups, Reclip.It (now Walmart Labs) and City Pockets, building out Malaysia's startup ecosystem with MaGIC, and getting >120 venture capital firms on board with #MovingForward.  </p>
+  </div>
+</div>
+
+<!-- Interview 2 -->
+<div id="article-wrap-next">
+  <div id="image">
+    <img alt="lucrezia mancini" src = "images/lucrezia1.png" width="550"/>
+  </div>
+
+  <div class="article">
+    <p id="tag-article"> <a href="interviews.php">#HEARHERSTORY</a></p>
+    <h1 id="title-article"> <a href="https://medium.com/lets-hear-it/hearherstory-lucrezia-mancini-5e26515352ab?source=collection_category---3------1---------------------">Interview with Lucrezia Mancini</a></h1>
+    <p id="date"> October 11, 2018</p>
+    <p id="description"> She began her career in fashion as an assistant to one of the biggest stylists in the industry. It was in this hostile, demanding work environment that she knew she had to leave and become her own boss. She now works as a freelance stylist and contributing fashion editor, as well as the head of the styling program at Istituto Marangoni in Miami. </p>
+  </div>
+</div>
+
+<!-- Interview 3 -->
+<div id="article-wrap-next">
+  <div id="image">
+    <img alt="carissa justice" src = "images/carissa1.png" width="550"/>
+  </div>
+
+  <div class="article">
+    <p id="tag-article"> <a href="interviews.php">#HEARHERSTORY</a></p>
+    <h1 id="title-article"> <a href="https://medium.com/lets-hear-it/hearherstory-carissa-justice-50b4e534b98d?source=collection_category---3------2---------------------">Interview with Carissa Justice</a></h1>
+    <p id="date"> September 22, 2018</p>
+    <p id="description"> Carissa Justice is the co-founder of Nimble Creative, a Bay Area branding and marketing company. The copywriter has done work for clients including Facebook, Google Home, and Visa. After she had a baby, something in her changed. She quit her agency job because she did not feel passionate about it. Leaving her son everyday meant she had to be doing something fulfilling. So, she began to build something she loved. </p>
+  </div>
+</div>
+
+<!-- Interview 4 -->
+<div id="article-wrap-next">
+  <div id="image">
+    <img alt="aanchal gupta" src = "images/aanchal1.png" width="550"/>
+  </div>
+
+  <div class="article">
+    <p id="tag-article"> <a href="interviews.php">#HEARHERSTORY</a></p>
+    <h1 id="title-article"> <a href="https://medium.com/lets-hear-it/hearherstory-aanchal-gupta-68a4f61a4816?source=collection_category---3------3---------------------">Interview with Aanchal Gupta</a></h1>
+    <p id="date"> August 30, 2018</p>
+    <p id="description"> Aanchal Gupta, Director of Security at Facebook, explains how she didn’t realize she was selling herself short until she had to be convinced by the hiring manager at Skype that she was a great fit for a security lead position. She soon realized she needs to trust herself more and be able to raise her hand to grab opportunities. Learn how she uses courage and confidence in the workplace to empower herself and those around her. </p>
+  </div>
+</div>
+
+<!-- Interview 5 -->
+<div id="article-wrap-next">
+  <div id="image">
+    <img alt="geneva peschka" src = "images/geneva.png" width="550"/>
+  </div>
+
+  <div class="article">
+    <p id="tag-article"> <a href="interviews.php">#HEARHERSTORY</a></p>
+    <h1 id="title-article"> <a href="https://medium.com/lets-hear-it/hearherstory-geneva-peschka-b1bad5940377?source=collection_category---3------4---------------------">Interview with Geneva Peschka</a></h1>
+    <p id="date"> July 19, 2018</p>
+    <p id="description"> After releasing her award-winning documentary film “Unspoken” last year, Geneva Peschka has started working on a 12-part docu-series entitled “Women.” The strong female community at The Wing, where she serves as Community Manager, has helped her along her journey as a filmmaker. Through this female-focused network, Geneva has learned how to communicate, lead and find her passion. What keeps her motivated is knowing that at the end of the day, the important thing is not monetary success, but connecting with others. Read more about her films and her work at The Wing. </p>
+  </div>
+</div>
+
+<!-- Interview 6 -->
+<div id="article-wrap-next">
+  <div id="image">
+    <img alt="yari blanco" src = "images/yari.png" width="550"/>
+  </div>
+
+  <div class="article">
+    <p id="tag-article"> <a href="interviews.php">#HEARHERSTORY</a></p>
+    <h1 id="title-article"> <a href="https://medium.com/lets-hear-it/hearherstory-yari-blanco-4404b94c032a?source=collection_category---3------5---------------------">Interview with Yari Blanco</a></h1>
+    <p id="date"> June 12, 2018</p>
+    <p id="description"> As the senior manager of culture & diversity at the female coven, or co-working space, @the.wing, @theyariblanco has not only found an open and inclusive place to work, but a band of women that empower each other. “The sisterhood is real… we can talk about things that would be considered a no no at another company” says Yari. Through her job and growing confidence, Yari started @theGIRLMOB, a platform where she is bridging the communication gap for women of color. </p>
+  </div>
+</div>
+</div>
+
+</main>
+
+</body>
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+</html>

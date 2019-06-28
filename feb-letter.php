@@ -1,0 +1,133 @@
+<?php include("menu.php"); ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132525817-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132525817-1');
+</script>
+
+<meta charset="utf-8"/>
+<title>Letter | Feb 2019</title>
+<link rel="stylesheet" type="text/css" href="all.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="pub.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="about.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="interview-pages.css" media="all"/>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="fonts.css" media="all"/>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<body id="main-body">
+
+<main>
+<!-- Dark mode toggle -->
+<div id="dark">
+  <button id="butt" onclick="myFunction()">Night Mode 🌚</button>
+</div>
+
+<script>
+  var tog = false
+  function myFunction() {
+    if (tog =!tog) {
+      $('#main-body').attr('id', 'main-body-ed');
+      $('#name-letter').attr('id', 'name-letter-dark');
+      $('#interview-description').attr('id', 'description-dark');
+      $('#author-name').attr('id', 'author-dark');
+      $('#butt').text("Light Mode 🌝");
+      $('#block-quote').attr('id', 'block-quote-dark');
+      $('#part2').attr('id', 'part2-dark');
+    } else {
+      $('#main-body-ed').attr('id', 'main-body');
+      $('#name-letter-dark').attr('id', 'name-letter');
+      $('#description-dark').attr('id', 'interview-description');
+      $('#author-dark').attr('id', 'author-name');
+      $('#butt').text("Night Mode 🌚");
+      $('#block-quote-dark').attr('id', 'block-quote');
+      $('#part2-dark').attr('id', 'part2');
+    }
+  }
+</script>
+
+<!-- End dark mode -->
+
+  <!-- Title -->
+  <div id="header-interview">
+    <p id="industry-tag">
+      <a href="editor.php">LETTER FROM THE EDITOR</a>
+    </p>
+    <h1 id="name-letter">
+      Feb 2019: Set Yourself as an Example
+    <h1>
+    <p id="author-name">
+    By Maya Frai, February 28 2019
+  </p>
+  </div>
+    <br/><br/>
+
+
+  <p id="interview-description" class="letter">
+    As I was growing up, I was frequently told to “set a good example.” When I was a kid, I knew from teachers and family members that “a good example” meant doing what was already set before me. I was supposed to look up to others who were achieving good grades, possessing leadership qualities, and doing the right thing in order for me to inspire others to do the same. The “good” societal standards were already there for the taking — it was up to me to ensure that I followed them. Now, as I see how we often feel constrained within societal norms with abiding by what’s right and what’s wrong, we’re even more uncertain when faced with breaking free from ordinary behavior. Instead, we should strive to be ourselves in all cases and set ourselves as an example, without worrying about expectations of what that example should be.
+
+    <br/><br/>
+
+    As I entered high school, I saw how much weight this phrase carried. Every day was a new encounter with someone telling you what you should or should not do or what you should strive for and not. Setting a good example often constrained you within the bounds of typical “good” qualities, one of them being risk-averse. I often fell into the trap of doing things for the sake of following what people expected of me instead of doing the things I felt would be more fulfilling or worthwhile. I soon realized that if I wanted to set a good example, I should be more ambitious in what kinds of qualities I hope to inspire in others. Now, I see that setting an example is what differentiates you from others. It means to do something different in terms of what you stand for and believe in. When you set yourself as an example, you’re no longer necessarily following others and what they did, but you’re using your own success and knowledge to inspire others on being the one of the first to go your own way.
+
+
+  <br/><br/>
+
+  We’re often fearful of taking a different path rather than the one others took and gained success. It’s human nature. It’s a little risky to do something different for the sake of what you believe in, but it’s needed in order for more generations to be more predisposed to taking risks in the face of uncertainty. I say this because we often look up to people who followed a path that led them to success and hope to do the same to achieve what they did. We look at an industry or a company and if we do not see people who look like us, talk like us, or act like us, we may make the decision to not join the company or even the industry as a whole. We need role models in order to feel secure in the decision making process. This negatively affects women in particular. We often hear that women lack female role models. Women may often say they don’t see other women in the C-suite or they don’t see women starting a family once they get promoted. Because we might not actually see or know women doing things out of the ordinary, we might reconsider decisions that are a little bit uncertain.
+
+
+  <br/><br/>
+
+  Though, things are changing. More and more women are setting themselves as an example. Even though they see that others are acting differently or their actions might be outside of the “norm,” they do it anyway to see if they can achieve what they want by doing something a little different.
+
+  <br/><br/>
+
+  <a href="https://www.fastcompany.com/90304455/heres-what-happened-when-i-interviewed-for-a-new-job-while-heavily-pregnant?partner=rss&utm_source=twitter.com&utm_medium=social&utm_campaign=rss+fastcompany&utm_content=rss&eminfo=%7B%22EMAIL%22%3A%22gYwPF9a47hYCeZvFhLKFfg%3D%3D%22%2C%22BRAND%22%3A%22FO%22%2C%22CONTENT%22%3A%22Newsletter%22%2C%22UID%22%3A%22FO_BRD_67092327-4446-4848-AA69-4565410079CF%22%2C%22SUBID%22%3A%2298422442%22%2C%22JOBID%22%3A%22940651%22%2C%22NEWSLETTER%22%3A%22BROADSHEET%22%2C%22ZIP%22%3A%22%22%2C%22COUNTRY%22%3A%22USA%22%7D">Jen Watts Welsh</a> recently published a Forbes piece on how she challenged the status quo for acceptable pregnant women behavior. Jen was faced with a pervasive societal norm: when a woman finds out she’s pregnant, she stays in her current position whether she likes it or not. Jen felt uneasy about this given that she felt she’d grown as much as she could within her current role and the company and wanted to look for another challenge. She would often have calls with recruiters that would respond to her interest in a career move with “Okay, let’s talk after the baby is born.” Instead of giving in, Jen decided to set an example for other women that might be in the same position as her.
+</p>
+
+
+
+<h1 id="block-quote">
+  “Instead of quieting that voice, I decided to challenge the status quo for acceptable pregnant lady behavior. I did something the next day that everyone in my life thought was crazy, including me. I reached back out to the man I’d had coffee with to say, “I’m actually ready to talk seriously now if you are.”
+</h1>
+
+<p id="part2">
+  She knew it was risky to interview for jobs while having an obvious baby bump in her belly. But, she resisted conforming to the norm and embraced the fact that her bump was a visual reminder of having both professional ambition and a family life. “There was no hiding the fact that I’d come with some baggage. That I’d have other priorities outside of work. That they’d be hiring a mom of little ones and all the inconveniences that can bring.” Jen claimed that it ended up being the most empowering experience of her professional life. Being a woman in advertising, she did not have any working moms to look up to as examples and it was part of the reason of what drove her away from the industry. Jen’s experience brought up a whole new set of vulnerabilities, but she used her femininity to her advantage in inspiring a new norm.
+
+  <br/><br/>
+
+  However, women have been setting an example for other women for decades. We’ve seen women in many different industries ensure that they are changing the landscape for future generations to come. This past February, amidst fashion week, a fashion icon passed away, Karl Lagerfeld. Although we remember him for his true genius in fashion couture, <a href="https://www.vox.com/the-goods/2019/2/19/18231624/karl-lagerfeld-death-controversy-fat-comments-adele?fbclid=IwAR3Q_vLZVoXundUoGyHdjLmHtZsZZqLtC72TgwHwo-IRVGymZds6Ecpsm8E">Vox</a> reminded the public on something Karl often dismissed: plus-size women. Lagerfeld was among the few designers who exclusively employed rail-thin models to walk in his runway shows and once stated, “No one wants to see curvy women.” Fashion has been coined a cruel industry and many plus-size women felt fearful of being criticized by their natural body type. In being the first model size 16 to be featured on the cover of Sports Illustrated, Ashley Graham set an empowering example for many plus-size women aspiring to model in the fashion industry. In her book, <a href="https://www.amazon.com/New-Model-Confidence-Beauty-Really/dp/0062667947">A New Model: What Confidence, Beauty, and Power Really Look Like</a>, she advocates for body positivity and optimistically announces the potential of the evolution of body image in years to come. Body image has also been a prominent topic in the beauty industry, where Glossier’s campaign “Body Hero” <a href="https://www.refinery29.com/en-us/2017/09/172399/glossier-body-hero-ad-instagram">featured women of all shapes and sizes </a>advocating for a new vision of what beauty looks like.
+
+  <br/><br/>
+
+  Being comfortable with putting yourself out there is never a bad strategy in achieving something that might be against what others advise you to do. Setting yourself as the example allows you to not only speak for yourself and take actions based on your own ambition, but also serve as an inspiration for new generations of women.
+
+  <br/><br/>
+  </p>
+</main>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+</body>
+
+<footer>
+  <div id="graphic">
+    <img id="graphic-img" alt="letter" src = "images/landing-pub.png"/>
+  </div>
+</footer>
+</html>

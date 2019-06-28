@@ -18,6 +18,7 @@ body {
 }
 
 #image {
+  margin-top: 0.5px;
   flex: 1;
   order: 1;
 }
@@ -33,6 +34,23 @@ body {
   font-family: Pier Sans, Avenir;
   font-size: 18px;
   letter-spacing: 1.5px;
+}
+
+#tag-article-industry {
+  text-align: left;
+  font-family: Pier Sans, Avenir;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  color: #FF4013;
+}
+
+#tag-article-industry a {
+  text-decoration: none;
+  color: #FF4013;
+}
+
+#tag-article-industry a:hover {
+  text-decoration: underline;
 }
 
 #tag-article a {
@@ -363,4 +381,41 @@ hr {
   background-color: #F5F1E9;
   font-size: 15px;
   font-family: Pier Sans, Avenir;
+}
+
+/* LHI Industry Page CSS */
+.industry-about {
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 40px;
+  margin-bottom: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #1E1446;
+  background-color: #F5F4F2;
+  border-radius: 2px;
+}
+
+.industry-about h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.industry-about p {
+  margin-top: 30px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.industry-about a {
+  text-decoration: none;
+  color: #1E1446;
+}
+
+.industry-about a:hover {
+  text-decoration: underline;
 }

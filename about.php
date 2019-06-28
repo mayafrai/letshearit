@@ -1,0 +1,166 @@
+<?php include("menu.php"); ?>
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132525817-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132525817-1');
+</script>
+
+<meta charset="utf-8"/>
+<title>About | Let's Hear It</title>
+<link rel="stylesheet" type="text/css" href="all.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="about.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="fonts.css" media="all"/>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<body id="main-body">
+
+<main>
+<!-- Quote div -->
+<div id="quote">
+  <h1> What LHI was born out of  </h1>
+</div>
+
+<div id="story">
+  Let’s Hear It was started by Maya Frai, a junior at Cornell University studying Information and Computer Science. Maya started LHI in March of 2018 to initially provide a platform in the form of an online directory, where people can view featured women leading change and initiatives to improve the current climate for women in various industries.
+<br> <br>
+  2018 spurred a wave of news articles featuring women as victims of sexual harassment, workplace discrimination, and unequal treatment. The women who were brave enough to share these stories were highlighted in the press and motivated others to speak out as well. In order to maintain their relevancy, LHI compiled links to these stories on leading women in tech, entertainment, politics, and more to provide women with a list of inspirational figures to discover, follow, and keep up with.
+</div>
+<br>
+
+
+<!-- Quote div -->
+<div id="quote">
+  <h1>
+What the purpose of LHI is
+
+  </h1>
+</div>
+
+<div id="story">
+  Through the development of the platform, there was an organic need to provide authentic, original content targeted towards inspiring and advising the next generation of women. In conjunction to the directory of women on the main LHI platform, the publication was created to provide editorial content to the LHI audience. Therefore, the purpose of LHI is <strong> to provide content and opportunities to inspire, empower, and connect the next generation of modern women. </strong>
+<br> <br>
+</div>
+<br>
+
+
+<!-- Quote div -->
+<div id="quote">
+  <h1>
+
+    What LHI values
+
+  </h1>
+</div>
+
+<div id="story">
+  <strong>Authenticity</strong>
+<br> <br>
+We value originality and genuine passion to helping and inspiring women. We feature women who embrace their interests, passions, and experiences to help and inspire other women.
+<br> <br>
+
+<strong>Individuality </strong>
+<br> <br>
+We’re inclusive of all genders, ethnicities, races, and personal values through believing in the empowerment of diversity. We also believe that there’s no one-size fits all solution and love to hear stories about women doing things differently to make progress.
+<br> <br>
+
+<strong>Community </strong>
+<br> <br>
+We’re inspired by the many women who have contributed to the improvement of the platform and aim to connect them with our audience.
+<br> <br>
+
+<strong>Innovation </strong>
+<br> <br>
+We’re okay with never being satisfied in order to constantly improve and find new ways of achieving our goals.
+</div>
+<br>
+
+
+
+
+<!-- Quote div -->
+<div id="quote">
+  <h1>
+  What LHI currently provides
+  </h1>
+</div>
+
+<div id="story">
+  <strong>Platform</strong>
+<br> <br>
+→ View a curated directory of women in venture capital, tech, entertainment, politics, and other industries who are leading initiatives, sponsoring campaigns, promoting movements – all with the shared mission of empowering women and uplifting their community.
+<br>
+→ Read pieces about these women to learn more about their story and follow their journey in their respective industry.
+<br> <br>
+
+<strong>Publication</strong>
+<br> <br>
+→ Read interviews featuring women from various industries who have interesting stories, advice, and experiences they’d like to share with the LHI audience.
+<br>
+→ Listen to interviews on the LHI podcast, available on all major platforms.
+<br>
+→ Read monthly letters from the editor detailing a young’s student perspective on current issues facing women and advice, insight, commentary on personal thoughts and experiences.
+<br>
+→ View and share campaigns on trending topics and initiatives.
+<br> <br>
+
+<strong>Newsletter</strong>
+<br> <br>
+→ Latest news on women whether it be female founders, female congresswomen, or activists
+<br>
+→ Featured interviews and stories on various women
+<br>
+→ Featured op-eds and commentary authored by various women
+<br>
+→ Personal insight and advice from the editor
+<br>
+→ Announcements, updates, and opportunities from LHI
+<br>
+→ Exclusive subscriber content such as giveaways, what we’re following, current events, etc.
+
+<br>
+
+</div>
+
+
+<div id="author">
+  Created by Maya Frai, Founder and Managing Editor. Find more of my work <a href="http://maya-yael.me/">here</a>.
+</div>
+</main>
+
+<!-- Footer -->
+<a name="contribute"></a>
+
+  <div class="subscribe">
+    <div id="news-img"><img id="email" alt="letter" src = "images/news-img.png"/height="400px"></div>
+
+    <div class="subsc-info">
+      <h1> Join the Community </h1>
+      <p id="desc"> Subscribe to the LHI newsletter to discover the latest news on women as well as interviews, op-eds, and features. The newsletter goes out every Friday and always has something different in each one. </p>
+      <div class="bullet">
+        <p> → <a href="https://us12.campaign-archive.com/home/?u=026ea119d4e894bad560df48f&id=ee71568076">Check out the latest newsletter issues </a></p>
+        <p> →  <a href="https://letshearitplatform.us12.list-manage.com/subscribe?u=026ea119d4e894bad560df48f&id=ee71568076">Subscribe here </a></p>
+      </div>
+      <p class="contact"> Have questions about LHI or want to get involved? Email Maya at letshearitplatform@gmail.com. </p>
+    </div>
+  </div>
+
+<!-- End footer -->
+<footer>
+  <div id="graphic">
+    <img id="graphic-img" alt="letter" src = "images/graphic.png"/>
+  </div>
+</footer>
+
+
+</body>
+</html>

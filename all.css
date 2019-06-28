@@ -52,6 +52,45 @@ div {
     }
 }
 
+/* fonts browser rendering */
+@font-face {
+  font-family: Pier Sans;
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBlack.eot');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBlackItalic.eot');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBold.eot');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansLight.eot');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansMedium.eot');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansMediumItalic.eot');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansRegular.eot');
+
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBlack.woff2') format('woff2');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBlackItalic.woff2') format('woff2');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBold.woff2') format('woff2');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansLight.woff2') format('woff2');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBlack.woff2') format('woff2');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansMedium.woff2') format('woff2');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansMediumItalic.woff2') format('woff2');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansRegular.woff2') format('woff2');
+
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBlack.woff') format('woff');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBlackItalic.woff') format('woff');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBold.woff') format('woff');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansLight.woff') format('woff');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBlack.woff') format('woff');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansMedium.woff') format('woff');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansMediumItalic.woff') format('woff');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansRegular.woff2') format('woff');
+
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBlack.ttf') format('truetype');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBlackItalic.ttf') format('truetype');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBold.ttf') format('truetype');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansLight.ttf') format('truetype');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansBlack.ttf') format('truetype');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansMedium.ttf') format('truetype');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansMediumItalic.ttf') format('truetype');
+  src: url('/Users/mayayael/letshearit/fonts/PierSansRegular.ttf') format('truetype');
+}
+
 /* end CSS animation */
 .header {
     top: 0;
@@ -587,6 +626,61 @@ li {
   color: white;
   font-weight: 500;
 }
+
+.subscribe {
+  margin-left: 1px;
+  margin-top: 90px;
+  margin-bottom: 0.5px;
+  background-color: #1E1446;
+}
+
+.subscribe h1 {
+  margin-top: 40px;
+  font-family: Pier Sans, Avenir;
+  font-size: 40px;
+  color: white;
+  font-weight: 500;
+}
+
+.subscribe #desc {
+  margin-top: 40px;
+  font-family: Pier Sans, Avenir;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  width: 70%;
+}
+
+.subscribe .bullet {
+  margin-top: 30px;
+  font-family: Pier Sans, Avenir;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  width: 60%;
+}
+
+.subscribe .bullet a {
+  color: white;
+  text-decoration: none;
+}
+
+.subscribe .bullet a:hover {
+  text-decoration: underline;
+}
+
+#news-img {
+  float: left;
+}
+
+.contact {
+  margin-top: 20px;
+  font-family: Pier Sans, Avenir;
+  font-size: 15px;
+  color: white;
+}
+
+
 
 
 /* form CSS */

@@ -1,0 +1,392 @@
+<?php include("menu.php"); ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132525817-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132525817-1');
+</script>
+
+<meta charset="utf-8"/>
+<title>Dagne Dover | Let's Hear It</title>
+<link rel="stylesheet" type="text/css" href="all.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="about.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="pub.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="fonts.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="interview-pages.css" media="all"/>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<body id="main-body">
+
+<main>
+
+  <!-- Dark mode toggle -->
+  <div id="dark">
+    <button id="butt" onclick="myFunction()">Night Mode 🌚</button>
+  </div>
+
+  <script>
+    var tog = false
+    function myFunction() {
+      if (tog =!tog) {
+        $('#main-body').attr('id', 'main-body-ed');
+        $('#name-letter').attr('id', 'name-letter-dark');
+        $('#interview-description').attr('id', 'description-dark');
+        $('#butt').text("Light Mode 🌝");
+        $('#name-woman').attr('id', 'name-woman-dark');
+        $('#bio-p').attr('id', 'bio-p-dark');
+        $('#img-cred').attr('id', 'img-cred-dark');
+        $('#title-interview').attr('id', 'title-interview-dark');
+        $('#full-questions').attr('id', 'full-questions-dark');
+        $('#footer-interview').attr('id', 'footer-interview-dark');
+        $('#more').attr('id', 'more-dark');
+      } else {
+        $('#main-body-ed').attr('id', 'main-body');
+        $('#name-letter-dark').attr('id', 'name-letter');
+        $('#description-dark').attr('id', 'interview-description');
+        $('#butt').text("Night Mode 🌚");
+        $('#name-woman-dark').attr('id', 'name-woman');
+        $('#bio-p-dark').attr('id', 'bio-p');
+        $('#img-cred-dark').attr('id', 'img-cred');
+        $('#title-interview-dark').attr('id', 'title-interview');
+        $('#full-questions-dark').attr('id', 'full-questions');
+        $('#footer-interview-dark').attr('id', 'footer-interview');
+        $('#more-dark').attr('id', 'more');
+      }
+    }
+  </script>
+
+  <!-- End dark mode -->
+
+  <!-- Anchor button -->
+  <!-- <div id="anchor">
+    <button id="butt" onclick="location.href='https://anchor.fm/letshearitplatform'">LHI Podcast 🎙</button>
+  </div> -->
+
+  <!-- End Anchor -->
+
+
+
+<!-- Title -->
+<div id="header-interview">
+  <p id="industry-tag">
+    <a href="industry.php">LHI INDUSTRY</a> /   E-COMMERCE
+  </p>
+  <h1 id="name-woman">
+    Dagne Dover
+  <h1>
+  <p id="interview-description">
+    Interview with Melissa Mash, Deepa Gandhi and Jessy Dover on building a female-centric brand and striking a balance between fashion and function.
+  </p>
+</div>
+
+<!-- Ecommerce piece -->
+<div class="ecom-piece">
+<h1> QUALITY OVER QUANTITY </h1>
+<p>
+  “Less is best and nothing else.” Dagne Dover keeps this motto in mind with every new product, marketing, or distribution decision. They focus on providing the best experience to their loyal customer base without getting lost in the numbers. Being fashionable in their eyes does not mean sacrificing form and function. Quality over quantity means prioritizing the everyday essentials to make women feel that the handbag they purchase was designed just for them. This custom-made mentality is what has made Dagne Dover so successful among men and women, who carry products from the Landon Carry-all to the Dakota Backpack on their commute from work to the gym.
+<br> <br>
+Today, more and more brands are emerging in the e-commerce space as consumer spending increases year over year. Although consumption is growing, consumers are actually prioritizing staple or reusable pieces over high quantities of clothing in order to cut back on their contribution to an endless supply chain cycle.
+<br> <br>
+More direct to consumer brands are emerging as a disruptor to traditional fashion brands that typically pride themselves on speed to deliver high quantities of goods. Brands are promoting the popularized “KonMari” lifestyle, where less is more. Female-focused brands like Cuyana are creating staple goods for the modern woman while fitness influencer Ty Haney capitalizes on #DoingThings as a motivator for consuming higher quality and sustainable athleisure.
+<br> <br>
+Female founders are leading the fashion industry towards a new movement in quality production and loyal customer acquisition. The industry is no longer for those who can produce the most, but for those who can capitalize on what consumers really need. Quality over quantity is a major proponent of Dagne Dover's value proposition and their dedication to this mission is commendable. Read on to learn about their story.
+ </p>
+
+
+ <p id="sign"> <em>– Maya Frai, Managing Editor of LHI </em><p>
+
+</div>
+
+<div id="bio-c">
+  <div id="bio-img-dagne">
+    <br/><br/>
+      <img alt="dagne founders" src = "images/dagne-cover-img.png" width="700" height="1000"/>
+  </div>
+
+  <div id="cred">
+      <h1 id="title-large">By focusing on a two-way dialogue with their customers, these female founders disrupted tradition and prioritized what needed to be done to design necessities for every customer.  </h1>
+      <p id="img-cred-ecom"> Photo: Dagne Dover. From Left to Right: Deepa Gandhi, Melissa Mash, Jessy Dover.</p>
+  </div>
+</div>
+
+
+<div id="biographies">
+
+  <div id="p1">
+    <h1 class="name-h1"> Deepa Gandhi </h1>
+    <p class="name-p"> Deepa Gandhi is Co-Founder and COO at Dagne Dover. She combines her fashion acumen with analytical skills and insights. Recognizing her passion for retail, she transitioned from Lehman Brothers to Club Monaco where she honed knowledge of merchandising, planning, and managing a retail supply chain. Deepa has an MBA from the Wharton School of Business and a BA from Johns Hopkins University. She now brings this experience to Dagne Dover.
+</p>
+
+  </div>
+
+  <div id="p2">
+    <h1 class="name-h1"> Melissa Mash </h1>
+    <p class="name-p"> Melissa Mash is Co-Founder and CEO of Dagne Dover. Previously, Melissa worked at Coach managing its brick-and-mortar and e-commerce accounts, before being promoted to lead the turn-around at Coach's first EU/UK store. During that time, she saw an immense opportunity for a high-quality brand with classic silhouettes and smartly-designed interior pockets at a compelling pricepoint. That brand became Dagne Dover. Melissa currently leads business development, recruiting, investor relations and retail partnerships. Melissa has an MBA from the Wharton School of Business and a BA from NYU.
+</p>
+
+  </div>
+
+  <div id="p3">
+    <h1 class="name-h1"> Jessy Dover </h1>
+    <p class="name-p"> Jessy Dover is Co-Founder and Creative Director of Dagne Dover. She oversees the brand’s vision, and product development and production. She has led Dagne Dover through all collection launches since the brand’s beginning, in addition to her contributions as co-founder. At the age of just 30, Jessy brings her distinct handbag expertise to Dagne Dover after working for Coach, Dennis Basso, Jen Kao, Armani, Reed Krakoff and more. A graduate of Parson’s School of Design, Jessy always knew she wanted to be a creator, and much of her inspiration comes from solving everyday problems and improving the options available to consumers.
+</p>
+
+  </div>
+
+
+</div>
+
+
+
+
+<!-- Interview Questions -->
+<div id="q-wrap">
+  <!-- <div id="graphic-q">
+    <img id="img-qs" alt="questions" src = "images/new-qs.png"/>
+  </div> -->
+
+  <div id="graphic-q">
+    <p> Interview Q's &#8213; </p>
+  </div>
+
+  <div id="qs">
+    <p id="first"> <a href="#1">What’s the driving concept and main motivation behind Dagne Dover?
+</a></p>
+    <p> <a href="#2">While you were at Coach, how did you validate the idea of Dagne Dover in order to see that these types of handbags were needed in the industry?
+
+  </a></p>
+    <p> <a href="#3">As creative director, how did you make the transition from designing footwear at Parsons to creating fully functional handbags?
+</a></p>
+    <p> <a href="#4"> How did you all get into e-commerce and fashion? Did you envision yourself starting a career in the industry?
+
+
+ </a></p>
+    <p> <a href="#5">How do you see the industry changing as the definition of the “modern working woman” evolves?
+
+
+</a></p>
+    <p> <a href="#6">Dagne Dover is well-known for bags that are both functional and fashionable to effectively target modern working women. Can you tell us about the underlying vision for this and how you planned to achieve it?
+
+
+</a></p>
+    <p> <a href="#7"> How are you taking customer feedback into feasible contributions to the product development process?
+
+
+ </a></p>
+    <p> <a href="#8">More brands are starting to emphasize “quality over quantity” to offer essential products to the consumer. How do you think Dagne embodies this?
+
+
+ </a></p>
+    <p><a href="#9">  How do you think Dagne Dover has steered away from the more traditional path in the industry?
+
+ </a></p>
+    <p><a href="#10"> Do you think the Dagne Dover approach is common in the e-commerce industry?
+
+
+ </a></p>
+    <p><a href="#11">Where do you see Dagne going in the next couple years?
+
+ </a></p>
+    <p><a href="#12">What are some career advice you would give to younger women aspiring to start a career in the industry?
+</a></p>
+
+  </div>
+
+  <div class="clear"></div>
+</div>
+
+<script>
+$(document).ready(function() {
+
+    var dynamic = $('#qs');
+    var static = $('#img-qs');
+
+    static.height(dynamic.height());
+
+});
+</script>
+
+<!-- Full Interview -->
+<!-- <div id="title-interview">
+  <h1>These female founders changed how women approach their lives through introducing what women want in their design process. </h1>
+</div> -->
+
+<div id="full-questions">
+  <a name="1"/>
+  <p class="MF-ques-bold">Maya Frai: What’s the driving concept and main motivation behind Dagne Dover?
+
+  </p>
+  <p id="answer">Melissa Mash: When I was at Coach, I interacted with customers every day. It was through this experience that I was able to look at a business from a macro and corporate level, which showed me there’s tremendous opportunities for brands serving women on the go. We’re carrying a lot in our bags all the time and need something that protects our essentials, but also looks great. When creating the brand, we wanted something that was compelling, not only in terms of price point but in appearance, function of the interior, and practical materials.
+
+
+</p>
+
+  <a name="2"/>
+  <p class="MF-ques-bold"> MF [To Melissa]: While you were at Coach, how did you validate the idea of Dagne Dover in order to see that these types of handbags were needed in the industry?
+
+</p>
+  <p id="answer">MM: At the time, there were many handbag brands out there including Michael Kors, Longchamp, Gucci and Prada. Whether it was a $100 or $1000 handbag, people weren’t getting what they needed from these bags. That’s where I really saw that in order to create a brand that is compelling to people, you need to show how you can solve problems for the customer.
+
+</p>
+
+  <a name="3"/>
+  <p class="MF-ques-bold">MF [To Jessy]: As creative director, how did you make the transition from designing footwear at Parsons to creating fully functional handbags?
+
+</p>
+  <p id="answer">Jessy Dover: I’ve always been a creator and really interested in building things and collaborating. Melissa, Deepa and I hit it off immediately as we shared the same passion for starting something that was not only different, but would solve a problem. As a creative, I am carrying a million things all the time. I knew that designing a beautiful yet organized bag would solve an issue for many consumers out there. The determination I had to solve this need, combined with knowing that Melissa and Deepa had complementary skill sets to mine, showed me that it was a no brainer to start this company. It was really about seeing and digging into something that we could all gather around.
+
+
+
+</p>
+
+  <a name="4"/>
+  <p class="MF-ques-bold">MF: How did you all get into e-commerce and fashion? Did you envision yourself starting a career in the industry?
+
+</p>
+  <p id="answer">JD: I’ve always loved fashion. When it comes to e-commerce, I don’t think many people expected the fashion industry to take that turn. I adapted to the change and strongly believed that it was the best decision for us to achieve success.
+
+  <br> <br>
+  Deepa Gandhi: My background was not as direct. However, I have always had a strong passion for the fashion industry. One of my high school internships was with Harpers Bazaar, specifically the fashion closet. I had this underlying interest but then took more of a traditional route in my career. Right out of college, I went to work on the trading floor at Lehman Brothers. I learned that I wasn't really passionate about Capital Markets, but instead was interested in the consumer and creative-driven retail and fashion industry. After a year at Lehman, I left to work at Club Monaco. Melissa actually made the intro to the person at Club Monaco who then became my boss. Overall, I found ways to take my financial, analytical, and operational skill set and apply it to an industry that I was really passionate about.
+
+<br> <br>
+MM: When I was working at Coach Corporate in New York in 2008, they were starting to build out their e-commerce channels and were looking for another Account Executive to head it up. I had been working on the brick and mortar accounts at the time, but knew that e-commerce was the future, and something I was interested in working on. I eventually got the job and was able to build out that channel and learn more about the different types of e-commerce customers. That’s when I really knew I wanted to do something different and learned what I needed to eventually start Dagne Dover.
+
+
+ </p>
+
+  <a name="5"/>
+  <p class="MF-ques-bold"> MF: How do you see the industry changing as the definition of the “modern working woman” evolves?
+
+</p>
+  <p id="answer">MM: In the past, the majority of consumers would focus too much on products and services that just looked good. It didn’t have to be of a compelling quality, fit really well, or have things like technical pockets or materials able to withstand water — brands treated these types of properties as something you could get by without. Today, you need to have at least three compelling points in order to attract attention and get customers to purchase something that is typically traditional, especially if they’re buying the product for the first time. We wanted our products to allow you to multitask and were focused on doing the heavy lifting for our customers. We often compare our bags to a smartphone because once you use them, you probably can’t go back to other handbags that don’t have the same features.
+
+
+
+
+ </p>
+
+  <a name="6"/>
+  <p class="MF-ques-bold">MF: Dagne Dover is well-known for bags that are both functional and fashionable to effectively target modern working women. Can you tell us about the underlying vision for this and how you planned to achieve it?
+
+</p>
+  <p id="answer">DG: Prioritizing function is really a huge part of our overall ethos, whether it’s through how we approach design, our customer experience, or our social feed. We believe in the two-way dialogue with our customer. From the design perspective, we try to understand what the core needs and pain points of our customers. We also aim to identify needs they might not even know they want, so when they get the product, they have this amazing “A-ha” moment. This is a big testament to the fact that we listen before starting the design of a product, which is counter to what the traditional process is like. Our first product, the Legend Tote, is actually still one of our top-selling products. The design has really improved over the years because we’ve learned a lot from our customers and have been able to improve our manufacturing capabilities. Because we’re a bit slower in terms of introducing new products, we can really make sure that we have the right amount of time to go through the entire product life cycle.
+
+
+
+  </p>
+
+  <a name="7"/>
+  <p class="MF-ques-bold"> MF: How are you taking customer feedback into feasible contributions to the product development process?
+
+
+
+</p>
+  <p id="answer">JD: There are a few ways we get feedback from our customers whether it’s through customer service, product reviews, or social media. We take in all of the information to make decisions together. We are never rushing to hit timelines or doing things that are going to compromise the actual quality of the product. When we receive a request, we have to make sure that introducing something new will not just benefit one customer, but be useful to many. When we launch a new product, we do a lot of research and ask customers what they want. For product already in our assortment, we’ll wait until we have some time for things to evolve. For instance, this fall, we’re introducing a new feature on our Landon Carryall. Not only have people been asking for it, but we’ve been wanting to do it for a while and this is the right time.
+
+
+
+ </p>
+
+<a name="8"/>
+  <p class="MF-ques-bold"> MF: More brands are starting to emphasize “quality over quantity” to offer essential products to the consumer. How do you think Dagne embodies this?
+
+</p>
+  <p id="answer">JD: We operate around the principle “less is best and nothing else.” When things get complicated and we can’t make a decision, we think back to what the simplest solution would be. The Dakota Backpack is a strong example. We designed it to be the perfect everyday solution, and produced it in three different sizes. It’s great for travel, carries your computer and water bottle, has a leash for your keys, and various different pockets to protect your go-to items. It also comes with a shoe bag to keep things separate from the main compartment, like workout clothes. We launched the medium size first and it was so popular that we decided to create the other two sizes. We spent a lot of time creating the right type of fabrication so the colors would translate well. This way, colors like Storm, can actually go with both a professional and sporty look. And not to mention, it was the perfect addition to the Dagne product family.
+
+
+
+
+ </p>
+
+<a name="9"/>
+  <p class="MF-ques-bold">MF: How do you think Dagne Dover has steered away from the more traditional path in the industry?
+
+
+  </p>
+  <p id="answer">DG: There’s always the general playbook for any industry. We took a bit from the traditional path and from the digital native standpoint but only used what would be successful for Dagne. Whenever we’re deciding on a pop-up, an event, or marketing, we try to understand how it would benefit our customers and ensure that it makes his or her life better in some way. It’s also about making sure our efforts are impactful, which goes back to the notion of quality vs. quantity. It’s never been about the quantity of followers or subscribers or the traffic to a store, which often leads businesses to spend a lot of money in making compromising decisions. We make sure that we’re engaging with the right people and are actually building a loyal customer base. This has worked well for us because when we decide to do something, it comes out of true need.
+
+<br> <br>
+JD: This is really what we can attribute a lot of our success to. We’re very dedicated to the company, and each other as a team, and take the time to make the right decisions to create something long lasting.
+
+
+</p>
+
+<a name="10"/>
+  <p class="MF-ques-bold">MF: Do you think the Dagne Dover approach is common in the e-commerce industry?
+
+
+ </p>
+  <p id="answer">DG: It’s actually the opposite, with funding being one of the main reasons. The funding of the majority of digitally native brands come from venture capital firms. This is where top-line growth and user acquisition are the types of metrics that are absolutely paramount in comparison to metrics like brand loyalty and product quality. It was vital for us to build a long-term sustainable business, so we took a different funding approach through patient capital. This is capital that comes from high net worth individuals or family offices that also typically have some sort of knowledge of the industry that you’re in. So it’s not about how many users we acquire month over month, but more about how we grew and strengthened the brand. It wasn’t easy to find these types of investors, but we knew that if we had brought in venture capital funding, we would have had to make some compromising decisions that would have hurt our long term goals for the brand.
+
+
+
+
+</p>
+
+<a name="11"/>
+  <p class="MF-ques-bold">MF: Where do you see Dagne going in the next couple years?
+
+ </p>
+  <p id="answer">MM: We will definitely continue to expand organically with the ways we already have. We’re in the business of building a legacy brand and want to be known for high-quality products. This means we can’t take shortcuts or be in all distribution channels. We are selective in partnering with a small number of retailers including Nordstrom and Equinox. We’re also focused on being able to grow and maintain an awesome company culture.
+
+  <br> <br>
+  JD: From a design standpoint, we’re very interested in sustainability and are considering launching a collection with materials that have a lighter carbon footprint. We’re hoping to improve our products as people’s needs change, as well as the world around us.
+
+
+ </p>
+
+ <a name="12"/>
+   <p class="MF-ques-bold">MF: What are some career advice you would give to younger women aspiring to start a career in the industry?
+
+
+ </p>
+   <p id="answer">MM: On behalf of all of us, I think it’s important for people to be thoughtful, and strategic about how a particular job or experience will serve your greater personal development goals. You shouldn’t be so fixated on getting the highest paying  job at the most prestigious company. It should be about being in an environment that will further your long-term goals. Try to be in a place with smart, forward-thinking people. We’ve worked in a variety of environments and have taken the good and the bad. It’s easy for people to get pigeon-holed in one particular skill or area early on in their career, and that can happen if you’re not evaluating how you’re developing yourself. Taking classes, joining groups, and networking is always beneficial. Education can come in many forms and learning doesn’t stop after college, but is instead a life-long investment.
+
+</p>
+
+
+
+<!-- Footer -->
+<div id="footer-interview">
+  <h1 id="more"> More Interviews </h1>
+
+  <div id="photo-wrap">
+    <div id="interview1">
+      <a href="carly-interview.php">
+        <img alt="yari blanco" src = "images/carly-preview.png" width="390"/>
+        </a>
+    </div>
+
+    <div id="interview2">
+      <a href="https://medium.com/lets-hear-it/hearherstory-aanchal-gupta-68a4f61a4816">
+        <img alt="aanchal gupta" src = "images/aanchal-preview.png" width="390"/>
+    </a>
+    </div>
+
+    <div id="interview3">
+    <a href="cheryl-interview.php">
+      <img alt="cheryl" src = "images/cheryl-preview.png" width="390"/>
+    </a>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+</main>
+
+
+</body>
+</html>
