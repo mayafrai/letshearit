@@ -353,10 +353,19 @@ body {
   order: 2;
 }
 
+
 #title-large {
   font-family: Charter;
   font-size: 50px;
   color: #1E1446;
+  margin-bottom: 90px;
+  margin-right: 90px;
+}
+
+#title-large-dark {
+  font-family: Charter;
+  font-size: 50px;
+  color: white;
   margin-bottom: 90px;
   margin-right: 90px;
 }
@@ -367,6 +376,14 @@ body {
   font-size: 17px;
   font-weight: 100;
   color: #1E1446;
+  margin-right: 90px;
+}
+
+#img-cred-ecom-dark {
+  font-family: Pier Sans, Avenir;
+  font-size: 17px;
+  font-weight: 100;
+  color: white;
   margin-right: 90px;
 }
 
