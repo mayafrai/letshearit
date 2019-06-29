@@ -31,14 +31,14 @@ body {
 
 #tag-article {
   text-align: left;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansMedium, Avenir;
   font-size: 18px;
   letter-spacing: 1.5px;
 }
 
 #tag-article-industry {
   text-align: left;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansMedium, Avenir;
   font-size: 18px;
   letter-spacing: 1.5px;
   color: #FF4013;
@@ -67,14 +67,14 @@ body {
   width: 60%;
   color: #1E1446;
   letter-spacing: 1.5px;
-  font-family: Pier Sans;
+  font-family: PierSansRegular;
   font-size: 17px;
 }
 
 #title-article {
   margin-top: 25px;
   width: 80%;
-  font-family: Pier Sans;
+  font-family: PierSansMedium;
   font-size: 30px;
   margin-bottom: -30px;
 }
@@ -92,7 +92,7 @@ body {
   margin-top: 50px;
   width: 85%;
   line-height: 1.3;
-  font-family: Pier Sans;
+  font-family: PierSansRegular;
   font-size: 23px;
   font-weight: 100;
   color: #1E1446;
@@ -116,7 +116,7 @@ hr {
   margin-left: 100px;
   margin-top: 25px;
   width: 100%;
-  font-family: Pier Sans;
+  font-family: PierSansMedium;
   font-size: 30px;
 }
 
@@ -135,7 +135,7 @@ hr {
   width: 60%;
   color: #1E1446;
   letter-spacing: 1.5px;
-  font-family: Pier Sans;
+  font-family: PierSansRegular;
   font-size: 17px;
 }
 
@@ -144,7 +144,7 @@ hr {
   margin-top: 50px;
   width: 85%;
   line-height: 1.3;
-  font-family: Pier Sans;
+  font-family: PierSansRegular;
   font-size: 23px;
   font-weight: 100;
   color: #1E1446;
@@ -159,7 +159,7 @@ hr {
   margin-top: 10px;
   width: 85%;
   line-height: 1.3;
-  font-family: Pier Sans;
+  font-family: PierSansRegular;
   font-size: 23px;
   font-weight: 100;
   color: #1E1446;
@@ -167,7 +167,7 @@ hr {
 
 #tag-article-ed {
   text-align: left;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansMedium, Avenir;
   font-size: 18px;
   margin-left: 100px;
   letter-spacing: 1.5px;

@@ -3,7 +3,7 @@ body {
 }
 
 #quote {
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansBold, Avenir;
   font-weight: 500;
   margin-top: 50px;
   font-size: 20px;
@@ -13,7 +13,7 @@ body {
   }
 
 #story {
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansRegular, Avenir;
   font-size: 25px;
   font-weight: 100;
   width: 65%;

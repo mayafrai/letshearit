@@ -8,7 +8,7 @@ body {
 
 #industry-tag {
   margin-top: 80px;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansMedium, Avenir;
   font-size: 20px;
   letter-spacing: 1.5px;
   color: #FF4013;
@@ -25,7 +25,7 @@ body {
 
 #name-woman {
   margin-top: 30px;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansBold, Avenir;
   font-size: 60px;
   color: #1E1446;
 }
@@ -34,7 +34,7 @@ body {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 50px;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansRegular, Avenir;
   font-size: 23px;
   letter-spacing: 1.5px;
   font-weight: 100;
@@ -82,7 +82,7 @@ body {
 }
 
 #img-cred {
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansRegular, Avenir;
   font-size: 17px;
   font-weight: 100;
   color: #1E1446;
@@ -103,7 +103,7 @@ body {
 #graphic-q p {
   transform: rotate(270deg);
   color: white;
-  font-family: Pier Sans;
+  font-family: PierSansMedium;
   font-size: 25px;
   margin-left: -200px;
   width: 400px;
@@ -145,7 +145,7 @@ body {
   font-size: 20px;
   margin-left: 90px;
   margin-top: 30px;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansMedium, Avenir;
   letter-spacing: 1.5px;
   color: #1E1446;
 }
@@ -171,7 +171,7 @@ body {
   font-size: 23px;
   margin-left: 90px;
   margin-top: 30px;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansRegular, Avenir;
   letter-spacing: 1px;
   color: #1E1446;
 }
@@ -231,7 +231,7 @@ body {
 /* dark mode css */
 #name-woman-dark {
   margin-top: 30px;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansBold, Avenir;
   font-size: 60px;
   color: white;
 }
@@ -239,7 +239,7 @@ body {
 #bio-p {
     width: 90%;
     line-height: 1.5;
-    font-family: Pier Sans, Avenir;
+    font-family: PierSansRegular, Avenir;
     font-size: 23px;
     letter-spacing: 1.5px;
     font-weight: 100;
@@ -249,7 +249,7 @@ body {
 #bio-p-dark {
   width: 90%;
   line-height: 1.5;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansRegular, Avenir;
   font-size: 23px;
   letter-spacing: 1.5px;
   font-weight: 100;
@@ -257,7 +257,7 @@ body {
 }
 
 #img-cred-dark {
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansRegular, Avenir;
   font-size: 17px;
   font-weight: 100;
   color: white;
@@ -283,7 +283,7 @@ body {
   font-size: 23px;
   margin-left: 90px;
   margin-top: 30px;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansMedium, Avenir;
   letter-spacing: 1px;
   color: white;
 }
@@ -343,7 +343,7 @@ body {
 #bio-img-dagne {
   margin-left: 90px;
   margin-right: 0;
-  flex: 2;
+  flex: 2.3;
   order: 1;
 }
 
@@ -359,7 +359,7 @@ body {
   font-size: 50px;
   color: #1E1446;
   margin-bottom: 90px;
-  margin-right: 90px;
+  margin-right: 80px;
 }
 
 #title-large-dark {
@@ -372,7 +372,7 @@ body {
 
 
 #img-cred-ecom {
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansRegular, Avenir;
   font-size: 17px;
   font-weight: 100;
   color: #1E1446;
@@ -380,7 +380,7 @@ body {
 }
 
 #img-cred-ecom-dark {
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansRegular, Avenir;
   font-size: 17px;
   font-weight: 100;
   color: white;

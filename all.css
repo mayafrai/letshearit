@@ -134,8 +134,7 @@ html, body {
 
 #name-full {
   margin-left: 60px;
-  font-family: Pier Sans, Avenir;
-  font-weight: 800;
+  font-family: PierSansBlack, Avenir;
   letter-spacing: 0.5px;
   font-size: 55px;
   text-decoration: none;
@@ -149,8 +148,7 @@ html, body {
 
 
 #nav {
-  font-family: 'Avenir';
-  font-weight: 400;
+  font-family: PierSansMedium;
   z-index: 7;
   color: white;
   margin-top: 60px;
@@ -311,6 +309,7 @@ li {
 /* Main content CSS */
 
 #header-browse {
+  font-family: PierSansBold;
   font-size: 48px;
   color: #1E1446;
   text-align: center;
@@ -364,10 +363,9 @@ li {
   width: 400px;
   margin-left: 12px;
   font-size: 20px;
-  font-family: Pier Sans;
+  font-family: PierSansRegular;
   letter-spacing: 1.8px;
   color: grey;
-  font-weight: lighter;
   z-index: 30;
 }
 
@@ -389,7 +387,7 @@ li {
 	background-color:#231E46;
 	cursor:pointer;
 	color:white;
-	font-family:Pier Sans, Avenir;
+	font-family:PierSansRegular, Avenir;
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
@@ -636,7 +634,7 @@ li {
 
 .subscribe h1 {
   margin-top: 40px;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansMedium, Avenir;
   font-size: 40px;
   color: white;
   font-weight: 500;
@@ -644,7 +642,7 @@ li {
 
 .subscribe #desc {
   margin-top: 40px;
-  font-family: Pier Sans, Avenir;
+  font-family: PierSansRegular, Avenir;
   font-size: 18px;
   color: white;
   font-weight: 400;
