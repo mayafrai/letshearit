@@ -323,9 +323,9 @@ body {
 }
 
 .ecom-piece h1 {
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 32px;
 }
 
 .ecom-piece p {
@@ -333,6 +333,11 @@ body {
   font-weight: 300;
   letter-spacing: 1px;
   font-size: 20px;
+}
+
+.ecom-piece a {
+  color: #1E1446;
+
 }
 
 #bio-c {
@@ -428,7 +433,23 @@ body {
   color: #1E1446;
 }
 
+.name-p-lumi {
+  margin-right: 90px;
+}
+
 #sign {
   font-family: Charter;
   font-size: 20px;
+}
+
+#interview-img {
+  margin-left: 100px;
+  width: 60%;
+}
+
+#img-cred-interview {
+  font-family: PierSansRegular, Avenir;
+  font-size: 10px;
+  font-weight: 100;
+  color: #1E1446;
 }
